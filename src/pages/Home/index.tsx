@@ -19,21 +19,14 @@ const Home = () => {
             {/* <img className="ProfilePhoto" src={ProfilePhoto} alt="Profile" /> */}
             <img className="image" src={ProfilePhoto} alt="Profile" />
             {/* Creating a button to download my CV */}
-            <a className="button" href="./docs/CV.pdf" download>
-                <div className="downloadButton"></div>
-            </a>
+            {/* <a className="button" href="./docs/CV.pdf" download>
+            </a> */}
+
+            <button className="button">
+                <a href="./docs/CV.pdf" download>DOWNLOAD CV</a>
+            </button>
             <p className="scroll">Scroll down</p>
         </div >
-
-        /*
-<div class="navbar"></div>
-  <div class="main-text"></div>
-  <div class="authors-name"></div>
-  <div class="sub-text"></div>
-  <div class="image"></div>
-  <div class="button"></div>
-  <div class="scroll"></div>
-        */
     )
 }
 
