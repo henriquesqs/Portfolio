@@ -1,5 +1,5 @@
 .index {
-	overflow: scroll;
+	/* overflow: scroll; */
 }
 
 .index .texts {
@@ -46,9 +46,8 @@ img.ProfilePhoto {
 
 .scrollIcon {
 	filter: invert();
-	width: 25px;
+	width: 30px;
 	display: block;
 	margin: 0 auto;
 	margin-top: 2rem;
-	
 }
