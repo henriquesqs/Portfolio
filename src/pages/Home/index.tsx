@@ -7,25 +7,33 @@ import "./styles.css";
 const Home = () => {
     return (
         <div className="index">
-
             {/* Creating my navbar and giving its items/links via its props */}
-            <Navbar link1="HOME" link2="SKILLS" link3="PROJECTS" link4="CONTACT"></Navbar>
+            <Navbar link1="HOME" link2="SKILLS" link3="PROJECTS" link4="CONTACT" className="navbar" />
 
-            <div className="texts">
-                <p className="main-text"> Hello! I am </p>
-                <p className="authorName">HENRIQUE</p>
-                <p className="sub-text">
-                    a computer science student and lover of web development, web design and lofi music.
-                </p>
+            <div className="main-text"> Hello! I am </div>
+            <div className="authorName">HENRIQUE</div>
+            <div className="sub-text">
+                a computer science student and lover of web development, web design and lofi music.
             </div>
 
-            <img className="ProfilePhoto" src={ProfilePhoto} alt="Profile" />
+            {/* <img className="ProfilePhoto" src={ProfilePhoto} alt="Profile" /> */}
+            <img className="image" src={ProfilePhoto} alt="Profile" />
             {/* Creating a button to download my CV */}
-            <a className="downloadCVLink" href="./docs/CV.pdf" download>
+            <a className="button" href="./docs/CV.pdf" download>
                 <div className="downloadButton"></div>
             </a>
-            <p>Scroll down</p>
+            <p className="scroll">Scroll down</p>
         </div >
+
+        /*
+<div class="navbar"></div>
+  <div class="main-text"></div>
+  <div class="authors-name"></div>
+  <div class="sub-text"></div>
+  <div class="image"></div>
+  <div class="button"></div>
+  <div class="scroll"></div>
+        */
     )
 }
 

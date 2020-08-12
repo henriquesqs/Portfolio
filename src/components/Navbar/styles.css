@@ -33,6 +33,7 @@
 
 @media (min-width: 700px) {
 	.navBar {
+		margin-top: -5rem;
 		justify-content: flex-start;
 		margin-left: 5rem;
 		font-size: 20px;

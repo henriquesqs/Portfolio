@@ -1,0 +1,201 @@
+.index .texts {
+	font-family: Roboto;
+}
+
+.index > p { /* Alters "Scroll down" text */
+	font-family: Roboto;
+	padding: 3rem;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-text {
+	margin-top: 1rem;
+	font-weight: 300;
+	font-size: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.authorName {	
+	font-weight: 900;
+	font-size: 60px;	
+	margin-top: -3rem;
+	letter-spacing: -4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sub-text {
+	margin-top: -4rem;
+	padding: 0rem 2rem;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img.ProfilePhoto {
+	display: block;
+	margin: 0 auto;
+	margin-top: 2rem;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+div.downloadButton {
+	display: block;
+	margin: 0 auto;
+	margin-top: 2rem;
+	width: 163px;
+	height: 50px;
+	background: url(../../assets/images/downloadButton.svg);
+	transition: background 0.3s;
+}
+
+.downloadButton:hover {
+	background: url(../../assets/images/downloadButtonBlue.svg);
+	cursor: pointer;
+}
+
+a.downloadCVLink {
+	display: block;
+	margin: 0 auto;
+	margin-top: 2rem;
+	width: 163px;
+	height: 50px;
+}
+
+@media (max-height: 700px) {
+
+	.index > p { /* Alters "Scroll down" text */
+		font-family: Roboto;
+		font-weight: 300;
+		font-size: 20px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.main-text {
+		margin-top: 1rem;
+		font-weight: 300;
+		font-size: 25px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.authorName {	
+		font-weight: 900;
+		font-size: 50px;	
+		margin-top: -2rem;
+		letter-spacing: -4px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.sub-text {
+		margin-top: -3rem;
+		padding: 0rem 2rem;
+		font-weight: 300;
+		font-size: 18px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	img.ProfilePhoto {
+		display: block;
+		margin: 0 auto;
+		width: 150px;
+		height: 150px;
+		border-radius: 100px;
+	}
+}
+
+@media (min-width: 700px) {
+
+	.index > p { /* Alters "Scroll down" text */
+		display: none; /* hiding this tag for larger screens */
+	}
+	
+	.main-text {
+		margin-top: 3rem;
+		font-weight: 400;
+		font-size: 50px;
+		display: flex;
+		justify-content: flex-start;
+		margin-left: 5rem;
+	}
+	
+	.authorName {
+		font-weight: 900;
+		font-size: 80px;	
+		margin-top: -4rem;
+		letter-spacing: -4px;
+		display: flex;
+		justify-content: flex-start;
+		margin-left: 5rem;
+	}
+	
+	.sub-text {
+		padding: 0rem 2rem;
+		font-weight: 300;
+		font-size: 30px;
+		text-align: justify;
+		display: flex;
+		justify-content: flex-start;
+		margin-left: 3.2rem;
+		margin-top: -5rem;
+		width: 500px;
+	}
+	
+	a.downloadCVLink {
+		display: flex;
+		justify-content: flex-start;
+		margin-top: 2rem;
+		margin-left: 5rem;
+		width: 163px;
+		height: 50px;
+	}
+
+	div.downloadButton {
+		margin: 0;
+		display: flex;
+		justify-content: flex-start;
+		width: 163px;
+		height: 50px;
+		background: url(../../assets/images/downloadButton.svg);
+		transition: background 0.3s;
+	}
+	
+	.downloadButton:hover {
+		background: url(../../assets/images/downloadButtonBlue.svg);
+		cursor: pointer;
+	}
+
+	img.ProfilePhoto {
+		display: none;
+		justify-content: end;
+		/* margin: 0 auto; */
+		margin-top: 2rem;
+		width: 200px;
+		height: 200px;
+		border-radius: 100px;
+		margin-left: 200rem;
+	}
+		
+}

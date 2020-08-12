@@ -1,39 +1,37 @@
-.index .texts {
-	font-family: Roboto;
+div.index {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: repeat(7);
+    gap: 1px 1px 1px 1px ;
+    grid-template-areas: "navbar" "main-text" "authorName" "sub-text" "image" "button" "scroll";
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
 }
 
-.index > p { /* Alters "Scroll down" text */
-	font-family: Roboto;
-	padding: 3rem;
-	font-weight: 300;
-	font-size: 20px;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.main-text {
-	margin-top: 1rem;
+div .main-text { 
+    grid-area: main-text;
+    margin-top: 1rem;
 	font-weight: 300;
 	font-size: 35px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center; 
+    
 }
 
-.authorName {	
-	font-weight: 900;
+div.authorName { 
+    grid-area: authorName;
+    font-weight: 900;
 	font-size: 60px;	
-	margin-top: -3rem;
 	letter-spacing: -4px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.sub-text {
-	margin-top: -4rem;
+div.sub-text { 
+    grid-area: sub-text; 
 	padding: 0rem 2rem;
 	font-weight: 300;
 	font-size: 20px;
@@ -43,8 +41,9 @@
 	align-items: center;
 }
 
-img.ProfilePhoto {
-	display: block;
+img.image { 
+    grid-area: image; 
+    display: block;
 	margin: 0 auto;
 	margin-top: 2rem;
 	width: 200px;
@@ -52,8 +51,9 @@ img.ProfilePhoto {
 	border-radius: 100px;
 }
 
-div.downloadButton {
-	display: block;
+a.button { 
+    grid-area: button; 
+    display: block;
 	margin: 0 auto;
 	margin-top: 2rem;
 	width: 163px;
@@ -62,137 +62,20 @@ div.downloadButton {
 	transition: background 0.3s;
 }
 
-.downloadButton:hover {
-	background: url(../../assets/images/downloadButtonBlue.svg);
+a.button:hover { 
+    /* grid-area: button;  */
+    background: url(../../assets/images/downloadButtonBlue.svg);
 	cursor: pointer;
 }
 
-a.downloadCVLink {
-	display: block;
-	margin: 0 auto;
-	margin-top: 2rem;
-	width: 163px;
-	height: 50px;
-}
-
-@media (max-height: 700px) {
-
-	.index > p { /* Alters "Scroll down" text */
-		font-family: Roboto;
-		font-weight: 300;
-		font-size: 20px;
-		text-align: center;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
+p.scroll { 
+    font-family: Roboto;
+	padding: 3rem;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	
-	.main-text {
-		margin-top: 1rem;
-		font-weight: 300;
-		font-size: 25px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	
-	.authorName {	
-		font-weight: 900;
-		font-size: 50px;	
-		margin-top: -2rem;
-		letter-spacing: -4px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	
-	.sub-text {
-		margin-top: -3rem;
-		padding: 0rem 2rem;
-		font-weight: 300;
-		font-size: 18px;
-		text-align: center;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	img.ProfilePhoto {
-		display: block;
-		margin: 0 auto;
-		width: 150px;
-		height: 150px;
-		border-radius: 100px;
-	}
-}
-
-@media (min-width: 700px) {
-
-	.index > p { /* Alters "Scroll down" text */
-		display: none; /* hiding this tag for larger screens */
-	}
-	
-	.main-text {
-		margin-top: 3rem;
-		font-weight: 400;
-		font-size: 50px;
-		display: flex;
-		justify-content: flex-start;
-		margin-left: 5rem;
-	}
-	
-	.authorName {
-		font-weight: 900;
-		font-size: 80px;	
-		margin-top: -0.5rem;
-		letter-spacing: -4px;
-		display: flex;
-		justify-content: flex-start;
-		margin-left: 5rem;
-	}
-	
-	.sub-text {
-		padding: 0rem 2rem;
-		font-weight: 300;
-		font-size: 30px;
-		text-align: justify;
-		display: flex;
-		justify-content: flex-start;
-		margin-left: 3.2rem;
-		width: 500px;
-	}
-	
-	img.ProfilePhoto {
-		display: none;
-		margin: 0 auto;
-		margin-top: 2rem;
-		width: 200px;
-		height: 200px;
-		border-radius: 100px;
-	}
-
-	a.downloadCVLink {
-		display: flex;
-		justify-content: flex-start;
-		margin-top: 2rem;
-		margin-left: 5rem;
-		width: 163px;
-		height: 50px;
-	}
-
-	div.downloadButton {
-		margin: 0;
-		display: flex;
-		justify-content: flex-start;
-		width: 163px;
-		height: 50px;
-		background: url(../../assets/images/downloadButton.svg);
-		transition: background 0.3s;
-	}
-	
-	.downloadButton:hover {
-		background: url(../../assets/images/downloadButtonBlue.svg);
-		cursor: pointer;
-	}
-		
 }
