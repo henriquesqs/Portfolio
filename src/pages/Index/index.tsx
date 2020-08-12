@@ -21,8 +21,8 @@ const Index = () => {
 
             <img className="ProfilePhoto" src={ProfilePhoto} alt="Profile" />
             {/* Creating a button to download my CV */}
-            <a href="./docs/CV.pdf" download>
-                <div className="downloadButton" />
+            <a className="downloadCVLink" href="./docs/CV.pdf" download>
+                <div className="downloadButton"></div>
             </a>
             <p>Scroll down</p>
         </div >

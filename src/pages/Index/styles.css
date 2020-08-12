@@ -66,9 +66,18 @@ div.downloadButton {
 	width: 163px;
 	height: 50px;
 	background: url(../../assets/images/downloadButton.svg);
+	transition: background 0.3s;
 }
 
 .downloadButton:hover {
 	background: url(../../assets/images/downloadButtonBlue.svg);
 	cursor: pointer;
+}
+
+a.downloadCVLink {
+	display: block;
+	margin: 0 auto;
+	margin-top: 2rem;
+	width: 163px;
+	height: 50px;
 }
