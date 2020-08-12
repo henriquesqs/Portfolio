@@ -2,7 +2,8 @@ import React from "react";
 import "./styles.css";
 import Navbar from "../../components/Navbar";
 import ProfilePhoto from "../../assets/images/ProfilePhoto.jpg"
-import scrollIcon from "../../assets/images/Arrow.svg"
+// import scrollIcon from "../../assets/images/Arrow.svg"
+// import downloadButton from "../../assets/images/downloadButton.svg"
 
 const Index = () => {
     return (
@@ -20,7 +21,9 @@ const Index = () => {
             </div>
 
             <img className="ProfilePhoto" src={ProfilePhoto} alt="Profile" />
-            <img className="scrollIcon" src={scrollIcon} alt="Arrow icon" />
+            {/* <img className="scrollIcon" src={scrollIcon} alt="Arrow icon" /> */}
+            {/* <img className="downloadButton" src={downloadButton} alt="Download CV" /> */}
+            <div className="downloadButton" />
 
         </div>
     )
