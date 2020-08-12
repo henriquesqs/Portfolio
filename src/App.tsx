@@ -2,7 +2,6 @@ import React from "react";
 import "./assets/styles/global.css";
 import Index from "./pages/Index";
 import ReactFullpage from '@fullpage/react-fullpage'; // will return static version on server and "live" version on client
-import "fullpage.js/vendors/scrolloverflow";
 
 function App() {
     return (

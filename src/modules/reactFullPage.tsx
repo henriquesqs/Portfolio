@@ -1,3 +1,4 @@
+// @ts-ignore
 declare module '@fullpage/react-fullpage' {
     export interface fullpageOptions {
         anchors?: string[]
