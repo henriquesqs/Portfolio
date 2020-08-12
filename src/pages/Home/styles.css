@@ -14,7 +14,7 @@
 }
 
 .main-text {
-	margin-top: 3rem;
+	margin-top: 2rem;
 	font-weight: 300;
 	font-size: 35px;
 	display: flex;
@@ -22,10 +22,10 @@
 	align-items: center;
 }
 
-.authorName {
+.authorName {	
 	font-weight: 900;
 	font-size: 60px;	
-	margin-top: -0.5rem;
+	margin-top: -3rem;
 	letter-spacing: -4px;
 	display: flex;
 	justify-content: center;
@@ -33,6 +33,7 @@
 }
 
 .sub-text {
+	margin-top: -4rem;
 	padding: 0rem 2rem;
 	font-weight: 300;
 	font-size: 20px;
@@ -49,14 +50,6 @@ img.ProfilePhoto {
 	width: 200px;
 	height: 200px;
 	border-radius: 100px;
-}
-
-.scrollIcon {
-	filter: invert();
-	width: 30px;
-	display: block;
-	margin: 0 auto;
-	margin-top: 2rem;
 }
 
 div.downloadButton {
@@ -80,4 +73,75 @@ a.downloadCVLink {
 	margin-top: 2rem;
 	width: 163px;
 	height: 50px;
+}
+
+@media (min-width: 700px) {
+
+	.index > p { /* Alters "Scroll down" text */
+		display: none; /* hiding this tag for larger screens */
+	}
+	
+	.main-text {
+		margin-top: 3rem;
+		font-weight: 400;
+		font-size: 50px;
+		display: flex;
+		justify-content: flex-start;
+		margin-left: 5rem;
+	}
+	
+	.authorName {
+		font-weight: 900;
+		font-size: 80px;	
+		margin-top: -0.5rem;
+		letter-spacing: -4px;
+		display: flex;
+		justify-content: flex-start;
+		margin-left: 5rem;
+	}
+	
+	.sub-text {
+		padding: 0rem 2rem;
+		font-weight: 300;
+		font-size: 30px;
+		text-align: justify;
+		display: flex;
+		justify-content: flex-start;
+		margin-left: 3.2rem;
+		width: 500px;
+	}
+	
+	img.ProfilePhoto {
+		display: none;
+		margin: 0 auto;
+		margin-top: 2rem;
+		width: 200px;
+		height: 200px;
+		border-radius: 100px;
+	}
+
+	a.downloadCVLink {
+		display: flex;
+		justify-content: flex-start;
+		margin-top: 2rem;
+		margin-left: 5rem;
+		width: 163px;
+		height: 50px;
+	}
+
+	div.downloadButton {
+		margin: 0;
+		display: flex;
+		justify-content: flex-start;
+		width: 163px;
+		height: 50px;
+		background: url(../../assets/images/downloadButton.svg);
+		transition: background 0.3s;
+	}
+	
+	.downloadButton:hover {
+		background: url(../../assets/images/downloadButtonBlue.svg);
+		cursor: pointer;
+	}
+		
 }
