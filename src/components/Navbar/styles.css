@@ -4,7 +4,7 @@
 	align-items: center;
 	flex-direction: row;
 	font-size: 15px;
-	font-family: Cocogoose Light;
+	font-family: Roboto;
 }
 
 .navBar > p {
@@ -21,7 +21,7 @@
 		align-items: center;
 		flex-direction: row;
 		font-size: 10px;
-		font-family: Cocogoose Light;
+		font-family: Roboto;
 		margin-top: 2rem;
 	}
 	

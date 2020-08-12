@@ -63,7 +63,7 @@ a.button {
 }
 
 a.button:hover { 
-    /* grid-area: button;  */
+    grid-area: button;
     background: url(../../assets/images/downloadButtonBlue.svg);
 	cursor: pointer;
 }
@@ -163,7 +163,6 @@ p.scroll {
         grid-area: authorName;
         font-weight: 900;
 		font-size: 100px;	
-		/* margin-top: -10rem; */
 		letter-spacing: -4px;
 		display: flex;
 		justify-content: flex-start;
