@@ -1,3 +1,7 @@
+.index {
+	overflow: scroll;
+}
+
 .main-text {
 	margin-top: 3rem;
 	font-family: Roboto;

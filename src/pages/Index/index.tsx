@@ -5,7 +5,7 @@ import ProfilePhoto from "../../assets/images/ProfilePhoto.jpg"
 
 const Index = () => {
     return (
-        <div>
+        <div className="index">
 
             {/* Creating my navbar and given its items/links by its props */}
             <Navbar link1="HOME" link2="SKILLS" link3="PROJECTS" link4="CONTACT"></Navbar>
