@@ -1,5 +1,5 @@
 import React from "react";
-import Index from "./pages/Index";
+import Index from "./pages/Home";
 import ReactFullpage from '@fullpage/react-fullpage'; // will return static version on server and "live" version on client
 
 import "./assets/styles/global.css";
