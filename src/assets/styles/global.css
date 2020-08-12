@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "Cocogoose Light";
+	src: local("fonts"),
+		url(../fonts/Cocogoose\ Pro\ Light-trial.ttf) format("ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+#root {
+	
+	height: 100vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}

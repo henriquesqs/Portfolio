@@ -1,0 +1,38 @@
+.main-text {
+	margin-top: 3rem;
+	font-family: Cocogoose Light;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.authorName {
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 50px;	
+	margin-top: -0.5rem;
+	letter-spacing: -4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sub-text {
+	padding: 0rem 2rem;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img.ProfilePhoto {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	padding: 2rem 5rem 1rem 5rem;
+
+}
