@@ -24,6 +24,7 @@ const Index = () => {
             {/* <img className="scrollIcon" src={scrollIcon} alt="Arrow icon" /> */}
             {/* <img className="downloadButton" src={downloadButton} alt="Download CV" /> */}
             <div className="downloadButton" />
+            <p>Scroll down</p>
 
         </div>
     )

@@ -2,6 +2,17 @@
 	font-family: Roboto;
 }
 
+.index > p {
+	font-family: Roboto;
+	padding: 3rem 0rem 2rem 0rem;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .main-text {
 	margin-top: 3rem;
 	font-weight: 300;
@@ -51,7 +62,7 @@ img.ProfilePhoto {
 div.downloadButton {
 	display: block;
 	margin: 0 auto;
-	margin-top: 2rem;
+	margin-top: 3rem;
 	width: 163px;
 	height: 50px;
 	background: url(../../assets/images/downloadButton.svg);
