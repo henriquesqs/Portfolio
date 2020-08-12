@@ -54,6 +54,7 @@ img.image {
 button a {
     text-decoration: none;
     color: black;
+    transition: color 0.3s;
 }
 
 button {
@@ -69,15 +70,14 @@ button {
     font-family: Roboto;
     font-weight: 500;    
     cursor: pointer;
-    transition: color 0.3s;
+    transition: border-color 1s;
 }
 
 button:hover {
-    border: solid 1.3px #3672A6;
-    color: #3672A6;
+    border-color: #3672A6;
 }
 
-button a:hover {
+button:hover a {
     color: #3672A6;
 }
 
@@ -206,44 +206,17 @@ p.scroll {
         margin-top: 7rem;
     }
     
-    /* a button.button {
-        grid-area: button;
-        display: block;
-        margin: 0 auto;
-        margin-top: 2rem;
-        width: 163px;
-        height: 50px;
-        background-color: white;
-        border: solid 1.3px;
-        color: black;
-        border-radius: 5px;
-        text-align: center;
-        font-family: Roboto;
-        font-weight: 500;
-        text-decoration: none;
-        cursor: pointer;
-        transition: color 0.3s;
-    }
-
-    a button.button:hover {
-        background-color: white;
-        border: solid 1.3px;
-        color: #3672A6;
-        border-radius: 5px;
-        text-align: center;
-        font-family: Roboto;
-        text-decoration: none;
-        cursor: pointer;
-    } */
-
     button a {
         text-decoration: none;
         color: black;
+        transition: color 0.3s;
     }
     
     button {
         grid-area: button;
-        margin: 0 auto;
+        display: block;
+        margin: 0;
+        margin-left: 5rem;
         margin-top: 2rem;
         width: 163px;
         height: 50px;
@@ -253,16 +226,15 @@ p.scroll {
         text-align: center;
         font-family: Roboto;
         font-weight: 500;    
-        cursor: pointer;
-        transition: color 0.3s;
+        cursor: pointer;        
+        transition: border-color 0.3s;
     }
     
     button:hover {
-        border: solid 1.3px #3672A6;
-        color: #3672A6;
+        border-color: #3672A6;
     }
     
-    button a:hover {
+    button:hover a {
         color: #3672A6;
     }
     
