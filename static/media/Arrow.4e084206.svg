@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Botão_de_rolagem" data-name="Botão de rolagem" transform="translate(-921 -773)">
+    <g id="Elipse_1" data-name="Elipse 1" class="cls-1" transform="translate(921 773)">
+      <circle class="cls-2" cx="22.5" cy="22.5" r="22.5"/>
+      <circle class="cls-3" cx="22.5" cy="22.5" r="21.5"/>
+    </g>
+    <g id="Seta" transform="translate(932.636 790.453)">
+      <line id="Linha_2" data-name="Linha 2" class="cls-1" x2="11" y2="12" transform="translate(0.364 0.047)"/>
+      <line id="Linha_3" data-name="Linha 3" class="cls-1" x1="11" y2="12" transform="translate(11.364 0.047)"/>
+    </g>
+  </g>
+</svg>
