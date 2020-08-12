@@ -2,9 +2,9 @@
 	font-family: Roboto;
 }
 
-.index > p {
+.index > p { /* Alters "Scroll down" text */
 	font-family: Roboto;
-	padding: 3rem 0rem 2rem 0rem;
+	padding: 1.5rem;
 	font-weight: 300;
 	font-size: 20px;
 	text-align: center;
@@ -62,7 +62,7 @@ img.ProfilePhoto {
 div.downloadButton {
 	display: block;
 	margin: 0 auto;
-	margin-top: 3rem;
+	margin-top: 2rem;
 	width: 163px;
 	height: 50px;
 	background: url(../../assets/images/downloadButton.svg);
