@@ -13,7 +13,7 @@
 	margin-left: 1.6rem;
 }
 
-@media (max-height: 700px) {
+@media (max-height: 800px) {
 	.navBar {
 		display: flex;
 		justify-content: center;
@@ -21,7 +21,7 @@
 		flex-direction: row;
 		font-size: 10px;
 		font-family: Cocogoose Light;
-		margin-top: 3rem;
+		margin-top: 2rem;
 	}
 	
 	.navBar > p {

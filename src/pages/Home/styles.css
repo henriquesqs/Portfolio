@@ -9,7 +9,7 @@ div.index {
     font-family: Roboto;
 }
 
-div .main-text { 
+div.main-text { 
     grid-area: main-text;
     margin-top: 1rem;
 	font-weight: 300;
@@ -78,4 +78,58 @@ p.scroll {
 	justify-content: center;
 	align-items: center;
 	
+}
+
+@media (max-height: 600px) {
+	p.scroll {
+		margin-top: -1rem;
+	}
+}
+
+@media (max-height: 700px) {
+
+	p.scroll { /* Alters "Scroll down" text */
+		font-family: Roboto;
+		font-weight: 300;
+		font-size: 20px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	div.main-text {
+		font-weight: 300;
+		font-size: 25px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	div.authorName {	
+		font-weight: 900;
+		font-size: 50px;	
+		letter-spacing: -4px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	div.sub-text {
+		padding: 0rem 2rem;
+		font-weight: 300;
+		font-size: 18px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	img.image {
+		display: block;
+		margin: 0 auto;
+		width: 150px;
+		height: 150px;
+		border-radius: 100px;
+	}
 }
