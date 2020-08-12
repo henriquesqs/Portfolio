@@ -4,7 +4,7 @@ import ProfilePhoto from "../../assets/images/ProfilePhoto.jpg"
 
 import "./styles.css";
 
-const Index = () => {
+const Home = () => {
     return (
         <div className="index">
 
@@ -29,4 +29,4 @@ const Index = () => {
     )
 }
 
-export default Index;
+export default Home;
