@@ -1,0 +1,7 @@
+<svg id="Download_button" data-name="Download button" xmlns="http://www.w3.org/2000/svg" width="163" height="50" viewBox="0 0 163 50">
+  <g id="Retângulo_10" data-name="Retângulo 10" fill="none" stroke="#3672a6" stroke-width="1">
+    <rect width="163" height="50" rx="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="162" height="49" rx="4.5" fill="none"/>
+  </g>
+  <text id="DOWNLOAD_CV" data-name="DOWNLOAD CV" transform="translate(29 16)" fill="#3672a6" font-size="15" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0.112" y="16">DOWNLOAD CV</tspan></text>
+</svg>
