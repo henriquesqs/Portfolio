@@ -71,6 +71,7 @@ a.downloadCV {
     font-weight: 500;    
     cursor: pointer;
     transition: border-color 0.3s, color 0.3s;
+    outline:none;
 }
 
 .button:hover {
