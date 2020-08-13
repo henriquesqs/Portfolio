@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-const Button = styled.button`    
+interface ButtonProps {
+    borderColor: string;
+    textColor: string;
+};
+
+export const Button = styled.button<ButtonProps>`    
     width: 163px;
     height: 50px;
     color: black;
@@ -14,10 +19,8 @@ const Button = styled.button`
     transition: border-color 0.3s, color 0.3s;
     outline:none;
 
-    &:hover {
-        border-color: ${props => props.borderColor};
+    :hover {
+        border-color: ${props => props.borderColor};        
         color: ${props => props.textColor};
     }
 `
-
-export default Button;
