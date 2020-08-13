@@ -51,21 +51,15 @@ img.image {
 	border-radius: 100px;
 }
 
-a.downloadCVLink {
+a.downloadCV {
+    grid-area: button;
+    margin: 0 auto;
+    margin-top: 2rem;
     width: 163px;
     height: 50px;
 }
 
-button a {
-    text-decoration: none;
-    color: black;
-    transition: color 0.3s;
-}
-
-button {
-    grid-area: button;
-    margin: 0 auto;
-    margin-top: 2rem;
+.button {
     width: 163px;
     height: 50px;
     background-color: white;
@@ -75,14 +69,11 @@ button {
     font-family: Roboto;
     font-weight: 500;    
     cursor: pointer;
-    transition: border-color 1s;
+    transition: border-color 0.3s, color 0.3s;
 }
 
-button:hover {
+.button:hover {
     border-color: #3672A6;
-}
-
-button:hover a {
     color: #3672A6;
 }
 
@@ -211,36 +202,13 @@ p.scroll {
         margin-top: 7rem;
     }
     
-    button a {
-        text-decoration: none;
-        color: black;
-        transition: color 0.3s;
-    }
-    
-    button {
+    a.downloadCV {
         grid-area: button;
         display: block;
         margin: 0;
         margin-left: 5rem;
         margin-top: 2rem;
-        width: 163px;
-        height: 50px;
-        background-color: white;
-        border: solid 1.3px black;
-        border-radius: 5px;
-        text-align: center;
-        font-family: Roboto;
-        font-weight: 500;    
-        cursor: pointer;        
-        transition: border-color 0.3s;
-    }
-    
-    button:hover {
-        border-color: #3672A6;
-    }
-    
-    button:hover a {
-        color: #3672A6;
+        
     }
     
     p.scroll { 

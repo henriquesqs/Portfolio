@@ -20,9 +20,14 @@ const Home = () => {
             <img className="image" src={ProfilePhoto} alt="Profile" />
             {/* Creating a button to download my CV */}
 
-            <button className="button">
-                <a className="downloadCVLink" href="./docs/CV.pdf" download>DOWNLOAD CV</a>
-            </button>
+            {/* <button className="button">
+                <a href="./docs/CV.pdf" download>DOWNLOAD CV</a>
+            </button> */}
+
+            <a className="downloadCV" href=".">
+                <button className="button">DOWNLOAD CV</button>
+            </a>
+
             <p className="scroll">Scroll down</p>
         </div >
     )
