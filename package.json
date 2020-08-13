@@ -4,6 +4,10 @@
     "private": true,
     "homepage": "http://henriquesqs.github.io/portfolio",
     "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.30",
+        "@fortawesome/free-regular-svg-icons": "^5.14.0",
+        "@fortawesome/free-solid-svg-icons": "^5.14.0",
+        "@fortawesome/react-fontawesome": "^0.1.11",
         "@fullpage/react-fullpage": "^0.1.17",
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.3.2",
