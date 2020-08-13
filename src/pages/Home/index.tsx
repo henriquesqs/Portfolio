@@ -24,7 +24,7 @@ const Home = () => {
                 <a href="./docs/CV.pdf" download>DOWNLOAD CV</a>
             </button> */}
 
-            <a className="downloadCV" href=".">
+            <a className="downloadCV" href="./docs/CV.pdf" download>
                 <button className="button">DOWNLOAD CV</button>
             </a>
 
