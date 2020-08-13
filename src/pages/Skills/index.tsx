@@ -3,8 +3,9 @@ import "./styles.css"
 
 const Skills = () => {
     return (
-        <div>
-            <p>Hello, Skills!</p>
+        <div className="skills">
+            <h1 className="pageTitle">WHAT I DO</h1>
+            <h2 className="pageSubTitle">See what I can do for you</h2>
         </div>
     )
 }
