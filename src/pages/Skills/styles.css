@@ -12,7 +12,17 @@
 
 .pageSubTitle {
     margin-top: -1rem;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 20px;
+    
+}
+
+.line {
+    display: block;
+    width: 80%;
+    height:1px;
+    border-width:0;
+    background-color:lightgray;
+    box-shadow: 0px 0.1px 0.1px 0.4px rgb(182, 182, 182);
     
 }
