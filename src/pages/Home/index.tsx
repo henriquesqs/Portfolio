@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar";
 import ProfilePhoto from "../../assets/images/ProfilePhoto.jpg"
 
 import "./styles.css";
+import Button from "../../components/Button";
 
 const Home = () => {
     return (
@@ -18,14 +19,10 @@ const Home = () => {
             </div>
 
             <img className="image" src={ProfilePhoto} alt="Profile" />
+
             {/* Creating a button to download my CV */}
-
-            {/* <button className="button">
-                <a href="./docs/CV.pdf" download>DOWNLOAD CV</a>
-            </button> */}
-
             <a className="downloadCV" href="./docs/CV.pdf" download>
-                <button className="button">DOWNLOAD CV</button>
+                <Button borderColor="#3672A6" textColor="#3672A6">DOWNLOAD CV</Button>
             </a>
 
             <p className="scroll">Scroll down</p>
