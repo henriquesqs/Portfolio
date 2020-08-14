@@ -1,16 +1,16 @@
 .skills {
-   height: 100vh;
-   width: 100vw; 
+   /* height: 100vh;
+   width: 100vw;  */
    font-family: Roboto;
    text-align: center;
 }
 
-.pageTitle {
+/* .pageTitle {
     margin-top: 2rem;
-}
+} */
 
 .pageSubTitle {
-    margin-top: -1rem;
+    /* margin-top: -1rem; */
     font-weight: 300;
     font-size: 20px;
     

@@ -11,7 +11,7 @@ const Skills = () => {
 
             <h1 className="pageTitle">WHAT I DO</h1>
             <h3 className="pageSubTitle">See what I can do for you</h3>
-            <hr className="line" />
+            {/* <hr className="line" /> */}
 
             <Carousel slide={false} interval={10000} controls={false}>
                 <Carousel.Item>
