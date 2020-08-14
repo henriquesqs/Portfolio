@@ -39,10 +39,10 @@
 		justify-content: flex-start;
 		margin-left: 5rem;
 		font-size: 20px;
-		margin-top: -7rem;
+		margin-top: -1rem;
 	}
 	
 	.navBar > p {
-		margin-left: 3.7rem;
+		margin-left: 3rem;
 	}
 }

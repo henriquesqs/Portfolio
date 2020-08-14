@@ -133,14 +133,13 @@ p.scroll {
     div.index {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.1fr 0fr 0fr 0fr 0.1fr;
-        grid-template-areas: "navbar ." "main-text image" "authorName image" "sub-text image" "button .";
+        grid-template-rows: 0fr 100px 0fr 0.1fr;
+        grid-template-areas: "main-text image" "authorName image" "sub-text image" "button .";
         font-family: Roboto;
     }
     
     div.main-text { 
         grid-area: main-text;
-        margin-top: -0.7rem;
 		font-weight: 400;
 		font-size: 50px;
 		display: flex;
