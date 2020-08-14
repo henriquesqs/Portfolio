@@ -2,14 +2,15 @@
 
     margin: auto;
     margin-top: 3rem;
+    margin-bottom: 3rem;
     padding: 30px 30px 30px 30px;
 
     display: flex;
     align-items: center; 
     flex-direction: column;
     
-    width: 230px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
 
     box-shadow: 0px 2px 5px 0.5px rgb(182, 182, 182);
     border-radius: 5px;

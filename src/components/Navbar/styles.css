@@ -11,6 +11,7 @@
 	color: gray;
 	font-weight: 700;
 	margin-left: 1.6rem;
+	cursor: pointer;
 }
 
 /* Adapting to screens with max height of 800px */

@@ -3,12 +3,14 @@ import Home from "./pages/Home";
 import ReactFullpage from '@fullpage/react-fullpage'; // will return static version on server and "live" version on client
 import Skills from "./pages/Skills"
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { far as farRegular } from '@fortawesome/free-regular-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons' // imports all fas icons
+import { far } from '@fortawesome/free-regular-svg-icons' // imports all far icons 
+import Navbar from "./components/Navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./assets/styles/global.css";
 
-library.add(fas, farRegular)
+library.add(fas, far)
 
 function App() {
     return (
@@ -22,10 +24,18 @@ function App() {
                 return (
                     <ReactFullpage.Wrapper>
                         <div className="section">
+                            {/* Creating my navbar and giving its items/links via its props */}
+                            <Navbar api={fullpageApi} link1="HOME" link2="SKILLS" link3="PROJECTS" link4="CONTACT" />
                             <Home />
                         </div>
                         <div className="section">
                             <Skills />
+                        </div>
+                        <div className="section">
+                            <h1>I'm the third section!</h1>
+                        </div>
+                        <div className="section">
+                            <h1>I'm the fourth section!</h1>
                         </div>
                     </ReactFullpage.Wrapper>
                 );
