@@ -17,10 +17,14 @@ export const Button = styled.button<ButtonProps>`
     font-weight: 500;    
     cursor: pointer;
     transition: border-color 0.3s, color 0.3s;
-    outline:none;
+
+    :focus {
+        outline: none;
+    }
 
     :hover {
         border-color: ${props => props.borderColor};        
         color: ${props => props.textColor};
     }
+    
 `
