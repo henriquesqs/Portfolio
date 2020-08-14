@@ -46,7 +46,36 @@ const Skills = () => {
                 </Carousel.Item>
             </Carousel>
 
+            <div className="cards">
+                <Card
+                    title="SOFTWARE DEVELOPMENT"
+
+                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu purus, tincidunt ac justo quis, ultricies gravida enim. Integer ut tincidunt mi. Aliquam tristique orci vitae massa sollicitudin mattis ut in nisi. Donec sed augue posuere, congue felis a, tempor tortor. Vestibulum ut ex tortor."
+
+                    iconName="desktop"
+                    iconStyle="fas"
+                />
+                <Card
+                    title="SOFTWARE DEVELOPMENT"
+
+                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu purus, tincidunt ac justo quis, ultricies gravida enim. Integer ut tincidunt mi. Aliquam tristique orci vitae massa sollicitudin mattis ut in nisi. Donec sed augue posuere, congue felis a, tempor tortor. Vestibulum ut ex tortor."
+
+                    iconName="palette"
+                    iconStyle="fas"
+                />
+                <Card
+                    title="SOFTWARE DEVELOPMENT"
+
+                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu purus, tincidunt ac justo quis, ultricies gravida enim. Integer ut tincidunt mi. Aliquam tristique orci vitae massa sollicitudin mattis ut in nisi. Donec sed augue posuere, congue felis a, tempor tortor. Vestibulum ut ex tortor."
+
+                    iconName="chart-bar"
+                    iconStyle="far"
+                />
+
+            </div>
+
         </div>
+
 
     )
 }

@@ -3,10 +3,13 @@
    text-align: center;
 }
 
+.pageTitle {
+    font-weight: 700;
+}
+
 .pageSubTitle {
     font-weight: 300;
     font-size: 20px;
-    
 }
 
 .line {
@@ -22,6 +25,10 @@
 .carousel {
     margin-top: 0rem;
     height: 520px;
+}
+
+.cards {
+    display: none;
 }
 
 
@@ -57,4 +64,28 @@
 .carousel-indicators li.active {
     background-color: black !important;
     border: initial;
+}
+
+@media (min-width: 950px) {
+
+    .carousel {
+        display: none;
+    }
+
+    .pageTitle {
+        margin-top: 2rem;        
+    }
+
+    .pageSubTitle {
+        font-size: 25px;
+    }
+
+    .cards {
+        margin: 0 auto;
+        width: 100vw;
+        display: flex;        
+        justify-content: space-between;
+    }
+
+    
 }
