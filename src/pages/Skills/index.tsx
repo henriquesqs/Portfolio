@@ -13,7 +13,7 @@ const Skills = () => {
             <h3 className="pageSubTitle">See what I can do for you</h3>
             {/* <hr className="line" /> */}
 
-            <Carousel slide={false} interval={10000} controls={false}>
+            <Carousel slide={false} interval={10000} controls={false} bsPrefix="carousel" className="carousel">
                 <Carousel.Item>
                     <Card
                         title="SOFTWARE DEVELOPMENT"
@@ -50,6 +50,8 @@ const Skills = () => {
                 <Card
                     title="SOFTWARE DEVELOPMENT"
 
+                    color="#3672A6"
+
                     content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu purus, tincidunt ac justo quis, ultricies gravida enim. Integer ut tincidunt mi. Aliquam tristique orci vitae massa sollicitudin mattis ut in nisi. Donec sed augue posuere, congue felis a, tempor tortor. Vestibulum ut ex tortor."
 
                     iconName="desktop"
@@ -58,6 +60,8 @@ const Skills = () => {
                 <Card
                     title="SOFTWARE DEVELOPMENT"
 
+                    color="#3672A6"
+
                     content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu purus, tincidunt ac justo quis, ultricies gravida enim. Integer ut tincidunt mi. Aliquam tristique orci vitae massa sollicitudin mattis ut in nisi. Donec sed augue posuere, congue felis a, tempor tortor. Vestibulum ut ex tortor."
 
                     iconName="palette"
@@ -65,6 +69,8 @@ const Skills = () => {
                 />
                 <Card
                     title="SOFTWARE DEVELOPMENT"
+
+                    color="#3672A6"
 
                     content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu purus, tincidunt ac justo quis, ultricies gravida enim. Integer ut tincidunt mi. Aliquam tristique orci vitae massa sollicitudin mattis ut in nisi. Donec sed augue posuere, congue felis a, tempor tortor. Vestibulum ut ex tortor."
 

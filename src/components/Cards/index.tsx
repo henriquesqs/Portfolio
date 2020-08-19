@@ -7,6 +7,7 @@ import "./styles.css"
 
 interface PropsTypes {
     title: string;
+    color?: string;
     content: string;
     iconName: IconName;
     iconStyle: IconPrefix;
@@ -16,7 +17,7 @@ const Card: React.FC<PropsTypes> = (props) => {
 
     return (
         <div className="card">
-            <FontAwesomeIcon size="3x" icon={[props.iconStyle, props.iconName]} />
+            <FontAwesomeIcon color={props.color} size="3x" icon={[props.iconStyle, props.iconName]} />
             <p className="title">{props.title}</p>
             <p className="content">{props.content}</p>
         </div>

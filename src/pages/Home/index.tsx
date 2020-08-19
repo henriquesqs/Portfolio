@@ -22,7 +22,7 @@ const Home = () => {
 
             {/* Creating a button to download my CV */}
             <a className="downloadCV" href="./docs/CV.pdf" download>
-                <Button textColor="#3672A6" borderColor="#3672A6">DOWNLOAD CV</Button>
+                <Button bgColor="white" textColor="black" borderColor="black" hoverTextColor="#3672A6" hoverBorderColor="#3672A6" btnWidth="163px" btnHeight="50px" >DOWNLOAD CV</Button>
             </a>
 
             <p className="scroll">Scroll down</p>
