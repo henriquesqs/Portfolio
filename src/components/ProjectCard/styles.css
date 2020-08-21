@@ -1,0 +1,71 @@
+/* Styling our project card when isn't focused */
+
+.hover {
+    margin: 0 auto;
+    width: 80vw;
+    height: 15vh;
+}
+
+.projectCard {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 80vw;
+    height: 15vh;
+    background-color: gainsboro;
+    border-radius: 15px;
+    position: relative;
+}
+
+.projectCard img {
+    width: 80vw;
+    height: 15vh;
+    border-radius: 15px;
+}
+
+.projectCard .blackLayer {
+    background-color: black;
+    width: 80vw;
+    height: 15vh;
+    border-radius: 15px;
+    position: absolute;
+    opacity: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.projectCard p.projectTitle {
+    /* margin: 0 auto; */
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 0 2rem;
+}
+
+.projectCard p.projectDescription {
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    margin: 0rem 0 0 2rem;
+}
+
+/* Styling our project card when it's focused */
+
+.focus_projectCard {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 80vw;
+    height: 65vh;
+    background-color: var(--color-white-secondary);
+    border-radius: 15px;
+
+}
+
+.focus_projectCard img {
+    width: 80vw;
+    height: 15vh;
+    border-top-right-radius: 15px ;
+    border-top-left-radius: 15px ;
+
+}

@@ -1,58 +1,47 @@
-import React from "react";
-import Carousel from 'react-bootstrap/Carousel'
+import React, { useState } from "react";
 import proffyTemplate from "../../assets/images/proffy.jpg"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Button } from "../../components/Button";
+import ProjectCard from "../../components/ProjectCard";
 
 import "./styles.css"
 
 const Projects = () => {
 
-    const style = {
-        backgroundImage: "url(" + proffyTemplate + ")"
+    // States to control wheter ProjectCards are focused or not
+    const [isFirstCardFocused, setIsFirstCardFocused] = useState(false);
+    const [isSecondCardFocused, setIsSecondCardFocused] = useState(false);
+    const [isThirdCardFocused, setIsThirdCardFocused] = useState(false);
+
+    // This method is responsible for handling click on ProjectCards.
+    // When user clicks on a card, we increase this card size and hide the others
+    function handleProjectCardClick(id: string) {
+
+        if (id === "1") {
+            setIsFirstCardFocused(!isFirstCardFocused)
+        }
+        else if (id === "2") {
+            setIsSecondCardFocused(!isSecondCardFocused)
+        }
+        else {
+            setIsThirdCardFocused(!isThirdCardFocused)
+        }
     }
 
     return (
         <div className="projects">
-            <Carousel controls={false} interval={100000} bsPrefix="carousel" className="carouselProjects">
-                <Carousel.Item bsPrefix="carousel-item" className="carousel-item">
-                    <div className="projectTemplate" style={style} />
-                    <div className="projectDescription">
-                        <h1 className="projectTitle">PROJETO</h1>
-                        <p className="projectContent">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor dapibus nisl a porta. Duis ultrices, mi vel tristique blandit, quam urna tristique ante, sed hendrerit erat magna eu mi. Maecenas quis mollis augue. Pellentesque eget diam a eros scelerisque elementum sed sed metus.
-                        </p>
-                        <p className="buttonsLabel">Check this project below</p>
-                        <div className="buttonsArea">
-                            <a className="projectGithubButton" href="." >
-                                <Button bgColor="transparent" textColor="#F1F1F1" borderColor="#F1F1F1" hoverTextColor="#F2CF8D" hoverBorderColor="#F2CF8D" btnWidth="130px" btnHeight="50px" >
-                                    <FontAwesomeIcon className="githubIcon" icon={["fab", "github"]} />
-                                    GITHUB
-                                </Button>
-                            </a>
-                            <a className="projectLiveButton" href="." >
-                                <Button bgColor="transparent" textColor="#F1F1F1" borderColor="#F1F1F1" hoverTextColor="#F2CF8D" hoverBorderColor="#F2CF8D" btnWidth="130px" btnHeight="50px" >
-                                    <FontAwesomeIcon className="liveIcon" icon="external-link-alt" />
-                                    LIVE SITE
-                                </Button>
-                            </a>
-                        </div>
-                    </div>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div className="projectTemplate" style={style} />
-                    <div className="projectDescription">
+            <h1 className="pageTitle">PROJECTS</h1>
+            <h3 className="pageSubTitle">Click on any card and check them</h3>
 
-                    </div>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div className="projectTemplate" style={style} />
-                    <div className="projectDescription">
+            <div onClick={() => handleProjectCardClick("1")}>
+                {(isSecondCardFocused || isThirdCardFocused) ? null : <ProjectCard focused={isFirstCardFocused} title="TÍTULO" description="1erjliferjkfrlkrl1erjliferjkfrlkrl1erjliferjkfrlkrl1erjliferjkfrlkrl" image={proffyTemplate} />}
+            </div>
+            <div onClick={() => handleProjectCardClick("2")}>
+                {(isFirstCardFocused || isThirdCardFocused) ? null : <ProjectCard focused={isSecondCardFocused} title="TÍTULO" description="2erjliferjkfrlkrl" image={proffyTemplate} />}
+            </div>
+            <div onClick={() => handleProjectCardClick("3")}>
+                {(isFirstCardFocused || isSecondCardFocused) ? null : <ProjectCard focused={isThirdCardFocused} title="TÍTULO" description="3erjliferjkfrlkrl" image={proffyTemplate} />}
+            </div>
 
-                    </div>
-                </Carousel.Item>
-            </Carousel>
-        </div>
+        </div >
     );
 }
 
