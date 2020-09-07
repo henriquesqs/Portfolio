@@ -6,8 +6,23 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    /* justify-content: space-around; */
 }
 
 .pageTitle {
     margin-top: 5rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    row-gap: 2rem;
+}
+
+button[id$="Card"] {
+    outline: none !important;
+    background: none;
+    border: none;
 }
