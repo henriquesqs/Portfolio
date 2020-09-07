@@ -56,7 +56,6 @@
 
 .focus_projectCard {
     margin: 0 auto;
-    margin-top: 2rem;
     width: 80vw;
     height: 65vh;
     background-color: var(--color-white-secondary);
