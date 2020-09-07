@@ -18,7 +18,7 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
     return (
         <div id="card">
             {props.focused ?
-                <div className="focus_projectCard" aria-disabled="false">
+                <div className="focus_projectCard">
                     <img src={props.image} alt="Project preview" />
                     <div className="texts">
                         <p className="projectTitle">{props.title}</p>
