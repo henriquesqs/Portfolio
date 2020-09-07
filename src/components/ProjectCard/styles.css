@@ -26,7 +26,7 @@
     height: 15vh;
     border-radius: 15px;
     position: absolute;
-    opacity: 80%;
+    opacity: 0.8;
 }
 
 .projectCard .texts {
