@@ -39,25 +39,26 @@ const Projects = () => {
             <h3 className="pageSubTitle">Click on any card and check them</h3>
 
             <div className="buttons">
+
                 {/* First project card */}
                 {(isSecondCardFocused || isThirdCardFocused) ? null :
-                    <button id="firstCard" onClick={(event) => { handleProjectCardClick("1", event) }}>
-                        <ProjectCard focused={isFirstCardFocused} title="TÍTULO" longDescription="frefrefrferferfer" smallDescription="1erjliferjkfrlkrl1erjliferjkfrlkrl1erjliferjkfrlkrl1erjliferjkfrlkrl" image={proffyTemplate} githubLink="https://github.com" liveLink="#" />
-                    </button>
+                    <div id="firstCard" onClick={(event) => { handleProjectCardClick("1", event) }}>
+                        <ProjectCard focused={isFirstCardFocused} title="TÍTULO" longDescription="firstLongText" smallDescription="firstSmallText" image={proffyTemplate} githubLink="https://github.com" liveLink="#" />
+                    </div>
                 }
 
                 {/* Second project card */}
                 {(isFirstCardFocused || isThirdCardFocused) ? null :
-                    <button id="secondCard" onClick={(event) => { handleProjectCardClick("2", event) }}>
-                        <ProjectCard focused={isSecondCardFocused} title="TÍTULO" longDescription="frefrefrferferfer" smallDescription="2erjliferjkfrlkrl" image={proffyTemplate} githubLink="#" />
-                    </button>
+                    <div id="secondCard" onClick={(event) => { handleProjectCardClick("2", event) }}>
+                        <ProjectCard focused={isSecondCardFocused} title="TÍTULO" longDescription="secondLongText" smallDescription="secondSmallText" image={proffyTemplate} githubLink="#" />
+                    </div>
                 }
 
                 {/* Third project card */}
                 {(isFirstCardFocused || isSecondCardFocused) ? null :
-                    <button id="thirdCard" onClick={(event) => { handleProjectCardClick("3", event) }}>
-                        <ProjectCard focused={isThirdCardFocused} title="TÍTULO" longDescription="frefrefrferferfer" smallDescription="3erjliferjkfrlkrl" image={proffyTemplate} />
-                    </button>
+                    <div id="thirdCard" onClick={(event) => { handleProjectCardClick("3", event) }}>
+                        <ProjectCard focused={isThirdCardFocused} title="TÍTULO" longDescription="thirdLongText" smallDescription="thirdSmallText" image={proffyTemplate} />
+                    </div>
                 }
             </div>
 
