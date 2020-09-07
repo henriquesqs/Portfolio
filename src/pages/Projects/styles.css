@@ -20,9 +20,3 @@
     margin-top: 2rem;
     row-gap: 2rem;
 }
-
-button[id$="Card"] {
-    outline: none !important;
-    background: none;
-    border: none;
-}
