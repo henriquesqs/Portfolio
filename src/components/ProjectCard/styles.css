@@ -63,12 +63,12 @@
 }
 
 .focus_projectCard img {
-    margin-top: 10px;
-    width: 90%;
+    /* margin-top: 10px; */
+    width: 100%;
     height: 25%;
-    border-radius: 15px;
-    /* border-top-right-radius: 15px ;
-    border-top-left-radius: 15px ; */
+    /* border-radius: 15px; */
+    border-top-right-radius: 15px ;
+    border-top-left-radius: 15px ;
 
 }
 
@@ -87,12 +87,13 @@
 .focus_projectCard p.projectTitle {
     font-size: 25px;
     font-weight: bold;
+    margin-bottom: 10px;
     /* color: white; */
 }
 
 .focus_projectCard p.projectDescription {
     height: 80%;
-    background-color: khaki;
+    /* background-color: khaki; */
     font-size: 17px;
     font-weight: 400;
     word-wrap: break-word;
@@ -107,14 +108,40 @@
 }
 
 .textsDivider {
-    margin: 8px 0 8px 0;
+    margin: 0px 0 8px 0;
     color: black;
     align-self: center;
     width: 100%;
 }
 
-.buttonsArea {
+.linksArea {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* row-gap: 100px;*/
+    column-gap: 6px;
+}
+
+.linksArea p {
+    font-size: 15px;
+    padding: 10px;
+    transition: background 0.3s;
+    border-radius: 10px;
+    margin-left: -8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.linksArea p:hover {
+    /* border: 2px black solid; */
+    background-color: rgb(224, 224, 224);
+}
+
+/* .buttonsArea {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
-}
+    align-items: center; 
+} */

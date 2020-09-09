@@ -27,6 +27,8 @@ const Projects = () => {
         event.stopPropagation()
     }
 
+    // This function is responsible for handling click outside ProjectCards.
+    // When user clicks outside it, we decrease its size
     function handleClickOutsideCard(event: SyntheticEvent) {
         setIsFirstCardFocused(false)
         setIsSecondCardFocused(false)
@@ -43,7 +45,7 @@ const Projects = () => {
                 {/* First project card */}
                 {(isSecondCardFocused || isThirdCardFocused) ? null :
                     <div id="firstCard" onClick={(event) => { handleProjectCardClick("1", event) }}>
-                        <ProjectCard focused={isFirstCardFocused} title="TÍTULO" longDescription="firstLongText" smallDescription="firstSmallText" image={proffyTemplate} githubLink="https://github.com" liveLink="#" />
+                        <ProjectCard focused={isFirstCardFocused} title="TÍTULO" longDescription="firstLongText" smallDescription="firstSmallText" image={proffyTemplate} githubLink="#" liveLink="#" />
                     </div>
                 }
 
