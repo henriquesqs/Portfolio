@@ -2,7 +2,7 @@ div.index {
 	width: 100vw;
 	height: 100vh;
     display: grid;
-    grid-template-columns: 100vw;
+	grid-template-columns: 100vw;
 	grid-template-areas: "navbar" "main-text" "authorName" "sub-text" "image" "button" "scroll";
     justify-content: center;
     align-items: center;

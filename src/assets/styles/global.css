@@ -16,7 +16,6 @@ body,
 }
 
 .section {
-	height: 100vh;
 	width: 100vw;
 }
 
@@ -41,5 +40,5 @@ text-decoration: none;
 }
 
 .fp-tableCell {
-	vertical-align: middle; 
+	vertical-align: initial !important; 
 }
