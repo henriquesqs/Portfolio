@@ -4,7 +4,6 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons' // imports all fas icons
 import { far } from '@fortawesome/free-regular-svg-icons' // imports all far icons 
 import { fab } from '@fortawesome/free-brands-svg-icons'
-// import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills"
 import Projects from "./pages/Projects";
