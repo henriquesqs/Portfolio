@@ -1,7 +1,8 @@
 import React from "react"
+import { fullpageApi } from "@fullpage/react-fullpage";
 
 import "./styles.css"
-import { fullpageApi } from "@fullpage/react-fullpage";
+
 
 interface propsTypes {
 	link1: string;

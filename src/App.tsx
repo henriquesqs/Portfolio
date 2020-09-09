@@ -26,9 +26,7 @@ function App() {
                 return (
                     <ReactFullpage.Wrapper>
                         <div className="section">
-                            {/* Creating my navbar and giving its items/links via its props */}
-                            <Navbar api={fullpageApi} link1="HOME" link2="SKILLS" link3="PROJECTS" link4="CONTACT" />
-                            <Home />
+                            <Home api={fullpageApi} />
                         </div>
                         <div className="section">
                             <Skills />

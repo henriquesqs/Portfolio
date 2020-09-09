@@ -5,7 +5,7 @@
 	flex-direction: row;
 	font-size: 15px;
 	font-family: Roboto;
-	margin-top: 5vh;
+	margin-top: 10vh;
 }
 
 .navBar > p {
@@ -17,6 +17,7 @@
 
 /* Adapting to screens with max height of 800px */
 @media (max-height: 800px) {
+
 	.navBar {
 		display: flex;
 		justify-content: center;
@@ -24,6 +25,8 @@
 		flex-direction: row;
 		font-size: 13px;
 		font-family: Roboto;
+		margin-top: 5vh;
+		
 	}
 	
 	.navBar > p {
@@ -35,11 +38,11 @@
 
 /* Adapting to screens with min width of 700px */
 @media (min-width: 700px) {
+
 	.navBar {
 		justify-content: flex-start;
 		margin-left: 5rem;
 		font-size: 20px;
-		margin-top: -1rem;
 	}
 	
 	.navBar > p {

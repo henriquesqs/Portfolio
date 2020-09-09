@@ -1,9 +1,9 @@
 div.index {
-	/* height: 100vh; */
-    width: 100vw;
+	width: 100vw;
+	height: 100vh;
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-areas: "main-text" "authorName" "sub-text" "image" "button" "scroll";
+	grid-template-areas: "navbar" "main-text" "authorName" "sub-text" "image" "button" "scroll";
     justify-content: center;
     align-items: center;
     font-family: Roboto;
@@ -136,11 +136,15 @@ p.scroll {
     div.index {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0fr 100px 0fr 0.1fr;
-        grid-template-areas: "main-text image" "authorName image" "sub-text image" "button .";
+        grid-template-rows: 0.6fr 0fr 100px 0fr 0.1fr;
+        grid-template-areas: "navbar ." "main-text image" "authorName image" "sub-text image" "button .";
         font-family: Roboto;
-    }
-    
+	}
+	
+	Navbar{
+		grid-area: navbar;
+	}
+	
     div.main-text { 
         grid-area: main-text;
 		font-weight: 400;

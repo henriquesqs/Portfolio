@@ -25,7 +25,6 @@
     border-width:0;
     background-color:lightgray;
     box-shadow: 0px 0.1px 0.1px 0.4px rgb(182, 182, 182);
-    
 }
 
 .carousel {
@@ -94,8 +93,6 @@
         display: flex;        
         justify-content: space-between;
     }
-
-    
 }
 
 @media (max-height: 600px){
