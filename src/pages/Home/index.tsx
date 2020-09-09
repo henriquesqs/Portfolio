@@ -11,6 +11,7 @@ interface propsTypes {
 }
 
 const Home: React.FC<propsTypes> = (props) => {
+
     return (
         <div className="index">
 
