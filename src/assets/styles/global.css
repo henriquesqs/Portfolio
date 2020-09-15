@@ -30,3 +30,7 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
+
+.fp-tableCell {
+	vertical-align: unset !important;
+}
