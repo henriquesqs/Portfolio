@@ -1,6 +1,6 @@
 .navBar {
 	display: flex;
-	justify-content: center;
+	/* justify-content: flex-start; */
 	align-items: center;
 	flex-direction: row;
 	font-size: 15px;
@@ -41,7 +41,7 @@
 
 	.navBar {
 		justify-content: flex-start;
-		margin-left: 5rem;
+		/* margin-left: 5rem; */
 		font-size: 20px;
 	}
 	

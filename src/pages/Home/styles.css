@@ -90,6 +90,7 @@ p.scroll {
 
 	div.index{
 		height: 100vh;
+		width: 100vw;
 		grid-template-rows: 0fr 0fr 0fr 0fr 0fr 0fr;
 	}
 
@@ -141,18 +142,16 @@ p.scroll {
 }
 
 /* Adapting to screens with min width of 700px */
-@media (min-width: 700px) {
+@media (min-width: 769px) {
 
     div.index {
+		height: 100vh;
+		width: 100vw;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 0.82fr 1fr;
         grid-template-rows: 0.6fr 0fr 100px 0fr 0.1fr;
         grid-template-areas: "navbar ." "main-text image" "authorName image" "sub-text image" "button .";
         font-family: Roboto;
-	}
-	
-	Navbar{
-		grid-area: navbar;
 	}
 	
     div.main-text { 
@@ -183,7 +182,7 @@ p.scroll {
 		display: flex;
 		justify-content: flex-start;
 		margin-left: 3.2rem;		
-		width: 500px;
+		width: 515px;
         
     }
     
