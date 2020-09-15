@@ -30,6 +30,7 @@
 .carousel {
     margin-top: 0vh;
     height: 520px;
+    width: 100vw;
 }
 
 .cards {
@@ -91,7 +92,7 @@
         margin: 0 auto;
         width: 100vw;
         display: flex;        
-        justify-content: space-between;
+        justify-content: space-between;        
     }
 }
 

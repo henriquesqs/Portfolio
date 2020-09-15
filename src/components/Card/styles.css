@@ -12,8 +12,9 @@
     width: 300px;
     height: 400px;
 
-    box-shadow: 0px 2px 5px 0.5px rgb(221, 221, 221);
+    box-shadow: 0px 2px 5px 3px rgb(221, 221, 221);
     border-radius: 5px;
+    border: none !important;
 
     font-family: Roboto;
 }
@@ -42,7 +43,7 @@
 
     .card {
         width: 400px;
-        height: 400px;        
+        height: 400px;
     }
     
 }
