@@ -20,6 +20,7 @@ function App() {
             // fullpage options
             licenseKey={'YOUR_KEY_HERE'}
             scrollingSpeed={1000}
+            
 
             render={({ state, fullpageApi }) => {
                 return (
