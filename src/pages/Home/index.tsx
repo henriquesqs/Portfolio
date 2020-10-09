@@ -29,7 +29,7 @@ const Home: React.FC<propsTypes> = (props) => {
             <img className="image" src={ProfilePhoto} alt="Profile" />
 
             {/* Creating a button to download my CV */}
-            <a className="downloadCV" href="./docs/CV.pdf" download>
+            <a className="downloadCV" href="https://drive.google.com/uc?id=1HDzUCiHRhQnDUX9og3vXAspzB6VsBiHr&export=download">
                 <Button bgColor="white" textColor="black" borderColor="black" hoverTextColor="#3672A6" hoverBorderColor="#3672A6" btnWidth="163px" btnHeight="50px" >DOWNLOAD CV</Button>
             </a>
 
