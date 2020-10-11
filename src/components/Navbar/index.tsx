@@ -5,22 +5,25 @@ import "./styles.css"
 
 
 interface propsTypes {
-	link1: string;
-	link2: string;
-	link3: string;
-	link4: string;
+	links: any[],
 	api: fullpageApi;
 }
 
 const Navbar: React.FC<propsTypes> = (props) => {
+
+	const navLinks = props.links.map(link => {
+		return (
+			(link.id === 1) ?
+				<strong key={link.id}>
+					<p onClick={() => (props.api).moveTo(link.id)}>{link.title}</p>
+				</strong> :
+				<p key={link.id} onClick={() => (props.api).moveTo(link.id)}>{link.title}</p>
+		)
+	})
+
 	return (
 		<div className="navBar">
-			<strong>
-				<p>{props.link1 ? props.link1 : null}</p>
-			</strong>
-			<p onClick={() => (props.api).moveTo(2)}>{props.link2 ? props.link2 : null}</p>
-			<p onClick={() => (props.api).moveTo(3)}>{props.link3 ? props.link3 : null}</p>
-			<p onClick={() => (props.api).moveTo(4)}>{props.link4 ? props.link4 : null}</p>
+			{navLinks}
 		</div>
 	);
 }

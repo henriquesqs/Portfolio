@@ -5,12 +5,14 @@ interface ButtonProps {
     btnHeight: string;
     borderColor: string;
     textColor: string;
+    textSize?: string;
     hoverBorderColor: string;
     hoverTextColor: string;
     bgColor: string;
 };
 
-export const Button = styled.button<ButtonProps>`    
+export const Button = styled.button<ButtonProps>`   
+ 
     width: ${props => props.btnWidth};
     height: ${props => props.btnHeight};
     color: ${props => props.textColor};
@@ -25,15 +27,16 @@ export const Button = styled.button<ButtonProps>`
     transition: border-color 0.3s, color 0.3s;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    font-size: ${props => props.textSize};    
 
-    :focus {
+    : focus {
         outline: none;
     }
 
-    :hover {
-        border-color: ${props => props.hoverBorderColor};        
+    : hover {
+        border-color: ${props => props.hoverBorderColor};
         color: ${props => props.hoverTextColor};
     }
-    
+
 `

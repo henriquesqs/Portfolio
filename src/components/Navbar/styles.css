@@ -1,71 +1,42 @@
 .navBar {
 	display: flex;
-	/* justify-content: flex-start; */
+	justify-content: space-around;
 	align-items: center;
-	flex-direction: row;
-	font-size: 15px;
+	padding: 0 5%;
 	font-family: Roboto;
-	/* margin-top: 8vh; */
+	height: 100%;
 }
 
 .navBar > p {
 	color: gray;
 	font-weight: 700;
-	margin-left: 1.6rem;
 	cursor: pointer;
 }
 
-@media (max-height: 600px) {
+@media (max-width: 300px){
+	.navBar p {
+		font-size: 14px;
+	}
+}
 
+@media (min-width: 1025px){
 	.navBar {
 		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: row;
-		font-size: 15px;
+		justify-content: space-between;		
+		padding: 0;
 		font-family: Roboto;
-		/* margin-top: 5vh; */
+		height: 100%;
+		max-width: 80%;
 		
+	}
+
+	.navBar > strong > p{
+		padding-right: 50%;
+		margin-right: 100%;
 	}
 	
 	.navBar > p {
 		color: gray;
 		font-weight: 700;
-		margin-left: 1.6rem;
-	}
-}
-
-/* Adapting to screens with max height of 800px */
-@media (max-height: 800px) {
-
-	.navBar {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: row;
-		font-size: 15px;
-		font-family: Roboto;
-		/* margin-top: 5vh; */
-		
-	}
-	
-	.navBar > p {
-		color: gray;
-		font-weight: 700;
-		margin-left: 1.6rem;
-	}
-}
-
-/* Adapting to screens with min width of 700px */
-@media (min-width: 700px) {
-
-	.navBar {
-		justify-content: flex-start;
-		/* margin-left: 5rem; */
-		font-size: 20px;
-	}
-	
-	.navBar > p {
-		margin-left: 3rem;
 	}
 }
