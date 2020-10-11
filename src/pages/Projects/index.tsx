@@ -37,10 +37,13 @@ const Projects = () => {
 
     return (
         <div className="projects" onClick={handleClickOutsideCard}>
-            <h1 className="pageTitle">PROJECTS</h1>
-            <h3 className="pageSubTitle">Click on any card and check them</h3>
 
-            <div className="buttons">
+            <div className="topTexts">
+                <h1 className="pageTitle">PROJECTS</h1>
+                <h3 className="pageSubTitle">Click on any card and check them</h3>
+            </div>
+
+            <div className="projectCards">
 
                 {/* First project card */}
                 {(isSecondCardFocused || isThirdCardFocused) ? null :

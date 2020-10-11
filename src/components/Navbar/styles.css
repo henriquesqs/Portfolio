@@ -15,6 +15,26 @@
 	cursor: pointer;
 }
 
+@media (max-height: 600px) {
+
+	.navBar {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		font-size: 15px;
+		font-family: Roboto;
+		/* margin-top: 5vh; */
+		
+	}
+	
+	.navBar > p {
+		color: gray;
+		font-weight: 700;
+		margin-left: 1.6rem;
+	}
+}
+
 /* Adapting to screens with max height of 800px */
 @media (max-height: 800px) {
 
@@ -23,7 +43,7 @@
 		justify-content: center;
 		align-items: center;
 		flex-direction: row;
-		font-size: 13px;
+		font-size: 15px;
 		font-family: Roboto;
 		/* margin-top: 5vh; */
 		

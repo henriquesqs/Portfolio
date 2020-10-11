@@ -9,8 +9,10 @@ const Skills = () => {
     return (
         <div className="skills">
 
-            <h1 className="pageTitle">WHAT I DO</h1>
-            <h3 className="pageSubTitle">See what I can do for you</h3>
+            <div className="topTexts">
+                <h1 className="pageTitle">WHAT I DO</h1>
+                <h3 className="pageSubTitle">See what I can do for you</h3>
+            </div>
             {/* <hr className="line" /> */}
 
             <Carousel slide={false} interval={10000} controls={false} bsPrefix="carousel" className="carousel">

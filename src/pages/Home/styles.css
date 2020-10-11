@@ -75,14 +75,27 @@ p.scroll {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 }
 
 /* Adapting to screens with max height of 699px */
-@media (max-height: 699px) {
+@media (max-height: 600px) {
+
 	div.index {
-		height: 90vh;
-		grid-template-rows: 0fr 0fr 0fr 0fr 0fr 0fr 0fr;
+		height: 100vh;
+		grid-template-rows: 0fr 0fr 0fr 0fr 5fr 0fr 2fr;
+	}
+
+	div.navbar {
+		margin-top: 25px;
+	}
+
+	div.main-text {
+		margin: 0;
+	}
+
+	a.downloadCV {
+		margin-top: 0rem;
+
 	}
 
 	p.scroll { /* Alters "Scroll down" text */
@@ -93,7 +106,8 @@ p.scroll {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin-top: 10px;
+		/* margin-top: 10px; */
+		/* margin-bottom: 0 auto; */
 	}
 	
 	div.main-text {
@@ -126,7 +140,7 @@ p.scroll {
 	img.image {
 		display: block;
         margin: 0 auto;
-        margin-top: 1rem;
+        /* margin-top: 1rem; */
 		width: 150px;
 		height: 150px;
 		border-radius: 100px;
@@ -134,7 +148,7 @@ p.scroll {
 }
 
 /* Adapting to screens with height between 700px and 800px */
-@media (min-height: 700px) and (max-height: 800px) {
+@media (min-height: 601px) and (max-height: 700px) {
 
 	div.index{
 		height: 90vh;

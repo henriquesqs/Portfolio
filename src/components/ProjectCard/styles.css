@@ -146,3 +146,13 @@
     justify-content: space-between;
     align-items: center; 
 } */
+
+@media (max-height: 600px){
+    .projectTitle {
+        font-size: 20px !important;
+    }
+
+    .projectDescription {
+        font-size: 13px !important;
+    }
+}

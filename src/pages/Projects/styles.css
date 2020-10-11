@@ -1,5 +1,5 @@
 .projects {
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     font-family: Roboto;
     text-align: center;
@@ -8,15 +8,30 @@
     flex-direction: column;
 }
 
-.pageTitle {
-    /* margin-top: 5vh; */
+.topTexts {
+    margin-top: 30px;
 }
 
-.buttons {
+.projectCards {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-top: 2rem;
     row-gap: 2rem;
     height: auto;
+}
+
+@media (max-height: 600px){
+
+    .pageTexts {
+        margin-top: 40px;
+    }
+    
+    .pageTitle {
+        font-size: 30px;
+    }
+
+    .pageSubTitle {
+        font-size: 17px;
+    }
 }

@@ -32,6 +32,28 @@
     font-size: 17px;
 }
 
+@media (max-height: 600px){
+
+    .card {
+        width: 280px;
+        height: 340px;
+
+        margin-top: 1rem;
+        margin-bottom: 1rem;        
+
+        font-size: 13px;
+    }
+
+    .title {
+        font-size: 17px;
+    }
+
+    .content {
+        font-size: 15px;
+    }
+
+}
+
 @media (min-width: 1085px) and (max-width: 1220px) {
     .card {
         width: 350px;
