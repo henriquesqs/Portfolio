@@ -18,17 +18,18 @@ const Skills = () => {
                     <Card
                         title="SOFTWARE DEVELOPMENT"
 
-                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu purus, tincidunt ac justo quis, ultricies gravida enim. Integer ut tincidunt mi. Aliquam tristique orci vitae massa sollicitudin mattis ut in nisi. Donec sed augue posuere, congue felis a, tempor tortor. Vestibulum ut ex tortor."
+                        content="Low level development with C/C++ (3 years of expertise). High level software development with Java and Python (1 year of expertise). I am also able to work on full stack projects using HTML, CSS, JavaScript, React.js (with or without TypeScript) and Node.js."
 
                         iconName="desktop"
+
                         iconStyle="fas"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <Card
-                        title="SOFTWARE DEVELOPMENT"
+                        title="WEB DESIGN"
 
-                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu purus, tincidunt ac justo quis, ultricies gravida enim. Integer ut tincidunt mi. Aliquam tristique orci vitae massa sollicitudin mattis ut in nisi. Donec sed augue posuere, congue felis a, tempor tortor. Vestibulum ut ex tortor."
+                        content="I am starting to create projects mockups using Adobe XD and Figma and I am focusing to learn more about UI/UX development in order to create better projects mockups."
 
                         iconName="palette"
                         iconStyle="fas"
@@ -36,12 +37,10 @@ const Skills = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <Card
-                        title="SOFTWARE DEVELOPMENT"
-
-                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu purus, tincidunt ac justo quis, ultricies gravida enim. Integer ut tincidunt mi. Aliquam tristique orci vitae massa sollicitudin mattis ut in nisi. Donec sed augue posuere, congue felis a, tempor tortor. Vestibulum ut ex tortor."
-
-                        iconName="chart-bar"
-                        iconStyle="far"
+                        title="OTHERS"
+                        content="Linux, Project version control, MySQL, Oracle database, advanced English (speaking, writing and reading) and native Portuguese"
+                        iconName="info-circle"
+                        iconStyle="fas"
                     />
                 </Carousel.Item>
             </Carousel>
@@ -50,39 +49,31 @@ const Skills = () => {
                 <Card
                     title="SOFTWARE DEVELOPMENT"
 
-                    color="#3672A6"
-
-                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu purus, tincidunt ac justo quis, ultricies gravida enim. Integer ut tincidunt mi. Aliquam tristique orci vitae massa sollicitudin mattis ut in nisi. Donec sed augue posuere, congue felis a, tempor tortor. Vestibulum ut ex tortor."
+                    content="Low level development with C/C++ (3 years of expertise). High level software development with Java and Python (1 year of expertise). I am also able to work on full stack projects using HTML, CSS, JavaScript, React.js (with or without TypeScript) and Node.js."
 
                     iconName="desktop"
                     iconStyle="fas"
                 />
                 <Card
-                    title="SOFTWARE DEVELOPMENT"
+                    title="WEB DESIGN"
 
-                    color="#3672A6"
-
-                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu purus, tincidunt ac justo quis, ultricies gravida enim. Integer ut tincidunt mi. Aliquam tristique orci vitae massa sollicitudin mattis ut in nisi. Donec sed augue posuere, congue felis a, tempor tortor. Vestibulum ut ex tortor."
+                    content="I am starting to create projects mockups using Adobe XD and Figma and I am focusing to learn more about UI/UX development in order to create better projects mockups."
 
                     iconName="palette"
                     iconStyle="fas"
                 />
                 <Card
-                    title="SOFTWARE DEVELOPMENT"
+                    title="OTHERS"
 
-                    color="#3672A6"
+                    content="Linux, Project version control, MySQL, Oracle database, advanced English (speaking, writing and reading) and native Portuguese"
 
-                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu purus, tincidunt ac justo quis, ultricies gravida enim. Integer ut tincidunt mi. Aliquam tristique orci vitae massa sollicitudin mattis ut in nisi. Donec sed augue posuere, congue felis a, tempor tortor. Vestibulum ut ex tortor."
-
-                    iconName="chart-bar"
-                    iconStyle="far"
+                    iconName="info-circle"
+                    iconStyle="fas"
                 />
 
             </div>
 
         </div>
-
-
     )
 }
 

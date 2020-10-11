@@ -45,21 +45,43 @@ const Projects = () => {
                 {/* First project card */}
                 {(isSecondCardFocused || isThirdCardFocused) ? null :
                     <div id="firstCard" onClick={(event) => { handleProjectCardClick("1", event) }}>
-                        <ProjectCard focused={isFirstCardFocused} title="TÍTULO" longDescription="firstLongText" smallDescription="firstSmallText" image={proffyTemplate} githubLink="#" liveLink="#" />
+                        <ProjectCard
+                            focused={isFirstCardFocused}
+                            title="Proffy"
+                            longDescription="Project made during a course provided by a brazilian company. We've created this to practice the basics of a full stack applcation development with React.js, TypeScript and Node.js."
+                            smallDescription="Project created to learn React.js + TypeScript and Node.js"
+                            image={proffyTemplate}
+                            githubLink="https://github.com/henriquesqs/rocketseat-nlw2"
+                            liveLink="https://henriquesqs.github.io/rocketseat-nlw2/#"
+                        />
                     </div>
                 }
 
                 {/* Second project card */}
                 {(isFirstCardFocused || isThirdCardFocused) ? null :
                     <div id="secondCard" onClick={(event) => { handleProjectCardClick("2", event) }}>
-                        <ProjectCard focused={isSecondCardFocused} title="TÍTULO" longDescription="secondLongText" smallDescription="secondSmallText" image={proffyTemplate} githubLink="#" />
+                        <ProjectCard
+                            focused={isSecondCardFocused}
+                            title="TÍTULO"
+                            longDescription="secondLongText"
+                            smallDescription="secondSmallText"
+                            image={proffyTemplate}
+                            githubLink="#"
+                        />
                     </div>
                 }
 
                 {/* Third project card */}
                 {(isFirstCardFocused || isSecondCardFocused) ? null :
                     <div id="thirdCard" onClick={(event) => { handleProjectCardClick("3", event) }}>
-                        <ProjectCard focused={isThirdCardFocused} title="TÍTULO" longDescription="thirdLongText" smallDescription="thirdSmallText" image={proffyTemplate} />
+                        <ProjectCard
+                            focused={isThirdCardFocused}
+                            title="Portfolio"
+                            longDescription="I've created this portfolio to better introduce my front-end development skills and also to improve my abilites using React.js with TypeScript."
+                            smallDescription="This portfolio, made with React.js TypeScript"
+                            image={'https://i.imgur.com/P39pnqn.jpg'}
+                            githubLink="https://github.com/henriquesqs/portfolio"
+                        />
                     </div>
                 }
             </div>

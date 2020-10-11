@@ -32,10 +32,10 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
                             {props.liveLink ? <Button bgColor="white" textColor="black" borderColor="black" hoverTextColor="#3672A6" hoverBorderColor="#3672A6" btnWidth="45%" btnHeight="50px">LIVE DEMO</Button> : null}
                         </div> */}
                         <div className="linksArea">
-                            <a href={props.githubLink}>
+                            <a href={props.githubLink} target="_blank" rel="noopener noreferrer">
                                 <p>VIEW ON GITHUB</p></a>
                             {props.liveLink ?
-                                <a href={props.liveLink}>
+                                <a href={props.liveLink} target="_blank" rel="noopener noreferrer">
                                     <p>LIVE DEMO</p>
                                 </a>
                                 : null
