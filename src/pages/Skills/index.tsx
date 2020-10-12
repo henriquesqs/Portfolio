@@ -20,7 +20,7 @@ const Skills = () => {
                     <Card
                         title="SOFTWARE DEVELOPMENT"
 
-                        content="Low level development with C/C++ (3 years of expertise). High level software development with Java and Python (1 year of expertise). I am also able to work on full stack projects using HTML, CSS, JavaScript, React.js (with or without TypeScript) and Node.js."
+                        content="Low level development with C/C++ (3 years of experience). High level software development with Java and Python (1 year of experience). I am also able to work on full stack projects using HTML, CSS, JavaScript, React.js (with or without TypeScript) and Node.js."
 
                         iconName="desktop"
 
@@ -49,19 +49,19 @@ const Skills = () => {
 
             <div className="cards">
                 <Card
-                    title="SOFTWARE DEVELOPMENT"
-
-                    content="Low level development with C/C++ (3 years of expertise). High level software development with Java and Python (1 year of expertise). I am also able to work on full stack projects using HTML, CSS, JavaScript, React.js (with or without TypeScript) and Node.js."
-
-                    iconName="desktop"
-                    iconStyle="fas"
-                />
-                <Card
                     title="WEB DESIGN"
 
                     content="I am starting to create projects mockups using Adobe XD and Figma and I am focusing to learn more about UI/UX development in order to create better projects mockups."
 
                     iconName="palette"
+                    iconStyle="fas"
+                />
+                <Card
+                    title="SOFTWARE DEVELOPMENT"
+
+                    content="Low level development with C/C++ (3 years of experience). High level software development with Java and Python (1 year of experience). I am also able to work on full stack projects using HTML, CSS, JavaScript, React.js (with or without TypeScript) and Node.js."
+
+                    iconName="desktop"
                     iconStyle="fas"
                 />
                 <Card

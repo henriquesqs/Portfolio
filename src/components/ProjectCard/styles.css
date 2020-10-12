@@ -1,4 +1,7 @@
+/**************************************************/
 /* Styling our project card when it isn't focused */
+/**************************************************/
+
 .hover {
     margin: 0 auto;
     width: 80vw;
@@ -52,7 +55,9 @@
     word-wrap: break-word;    
 }
 
+/**********************************************/
 /* Styling our project card when it's focused */
+/**********************************************/
 
 .focus_projectCard {
     margin: 0 auto;
@@ -63,13 +68,10 @@
 }
 
 .focus_projectCard img {
-    /* margin-top: 10px; */
     width: 100%;
     height: 25%;
-    /* border-radius: 15px; */
     border-top-right-radius: 15px ;
     border-top-left-radius: 15px ;
-
 }
 
 .focus_projectCard .texts {
@@ -80,20 +82,16 @@
     color: black;
     text-align: left;
     padding: 1rem 1rem 0 1rem;
-    /* align-items: center; */
-    /* justify-content: center; */
 }
 
 .focus_projectCard p.projectTitle {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
-    /* color: white; */
 }
 
 .focus_projectCard p.projectDescription {
     height: 80%;
-    /* background-color: khaki; */
     font-size: 17px;
     font-weight: 400;
     word-wrap: break-word;
@@ -121,7 +119,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    /* row-gap: 100px;*/
     column-gap: 6px;
 }
 
@@ -137,17 +134,30 @@
 }
 
 .linksArea p:hover {
-    /* border: 2px black solid; */
     background-color: rgb(224, 224, 224);
 }
 
-/* .buttonsArea {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-} */
-
 @media (max-height: 600px){
+    .projectTitle {
+        font-size: 20px !important;
+    }
+
+    .projectDescription {
+        font-size: 13px !important;
+    }
+}
+
+@media (min-height: 601px) and (max-height: 700px){
+    .projectTitle {
+        font-size: 20px !important;
+    }
+
+    .projectDescription {
+        font-size: 0.95em !important;
+    }
+}
+
+@media (max-width: 300px){
     .projectTitle {
         font-size: 20px !important;
     }

@@ -50,12 +50,11 @@ const Projects = () => {
                     <div id="firstCard" onClick={(event) => { handleProjectCardClick("1", event) }}>
                         <ProjectCard
                             focused={isFirstCardFocused}
-                            title="Proffy"
-                            longDescription="Project made during a course provided by a brazilian company. We've created this to practice the basics of a full stack applcation development with React.js, TypeScript and Node.js."
-                            smallDescription="Project created to learn React.js + TypeScript and Node.js"
-                            image={proffyTemplate}
-                            githubLink="https://github.com/henriquesqs/rocketseat-nlw2"
-                            liveLink="https://henriquesqs.github.io/rocketseat-nlw2/#"
+                            title="wwwFit"
+                            longDescription="This project simulates a gym where users can select and receive some physical exercises instructions. It was made using Java, Spring Framework, HTML, CSS, JavaScript and a MySQL database. It was my first time using Model-View-Controller pattern."
+                            smallDescription="Java web application based on a gym"
+                            image={"https://i.imgur.com/NoRWjKj.png"}
+                            githubLink="https://tinyurl.com/wwwfit"
                         />
                     </div>
                 }
@@ -65,11 +64,11 @@ const Projects = () => {
                     <div id="secondCard" onClick={(event) => { handleProjectCardClick("2", event) }}>
                         <ProjectCard
                             focused={isSecondCardFocused}
-                            title="TÍTULO"
-                            longDescription="secondLongText"
-                            smallDescription="secondSmallText"
-                            image={proffyTemplate}
-                            githubLink="#"
+                            title="Portfolio"
+                            longDescription="I've created this portfolio to better introduce my development skills and also to improve my skills using React.js with TypeScript."
+                            smallDescription="This portfolio, made with React.js TypeScript"
+                            image={'https://i.imgur.com/upWVEft.jpg'}
+                            githubLink="https://github.com/henriquesqs/portfolio"
                         />
                     </div>
                 }
@@ -79,11 +78,12 @@ const Projects = () => {
                     <div id="thirdCard" onClick={(event) => { handleProjectCardClick("3", event) }}>
                         <ProjectCard
                             focused={isThirdCardFocused}
-                            title="Portfolio"
-                            longDescription="I've created this portfolio to better introduce my front-end development skills and also to improve my abilites using React.js with TypeScript."
-                            smallDescription="This portfolio, made with React.js TypeScript"
-                            image={'https://i.imgur.com/P39pnqn.jpg'}
-                            githubLink="https://github.com/henriquesqs/portfolio"
+                            title="Proffy"
+                            longDescription="Project made during a course provided by a brazilian company. We've created this to practice the basics of a full stack applcation development with React.js, TypeScript, Node.js and sqlite."
+                            smallDescription="Project created to learn React.js + TypeScript and Node.js"
+                            image={proffyTemplate}
+                            githubLink="https://github.com/henriquesqs/rocketseat-nlw2"
+                            liveLink="https://henriquesqs.github.io/rocketseat-nlw2/#"
                         />
                     </div>
                 }
