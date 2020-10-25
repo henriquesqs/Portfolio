@@ -1,5 +1,4 @@
 import React from "react"
-// import { Button } from "../Button";
 
 import "./styles.css"
 
@@ -19,18 +18,13 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
         <div id="card">
             {props.focused ?
                 <div className="focus_projectCard">
-                    <img src={props.image} alt="Project preview" />
+                    <img src={props.image} className="img-fluid" alt="Project preview" />
                     <div className="texts">
                         <p className="projectTitle">{props.title}</p>
                         <p className="projectDescription">{props.longDescription}</p>
                     </div>
                     <div className="cardBottom">
                         <hr className="textsDivider" />
-                        {/* <div className="buttonsArea">
-                            {props.githubLink ? <Button bgColor="white" textColor="black" borderColor="black" hoverTextColor="#3672A6" hoverBorderColor="#3672A6" btnWidth="45%" btnHeight="50px">GITHUB</Button> : null}
-
-                            {props.liveLink ? <Button bgColor="white" textColor="black" borderColor="black" hoverTextColor="#3672A6" hoverBorderColor="#3672A6" btnWidth="45%" btnHeight="50px">LIVE DEMO</Button> : null}
-                        </div> */}
                         <div className="linksArea">
                             <a href={props.githubLink} target="_blank" rel="noopener noreferrer">
                                 <p>VIEW ON GITHUB</p></a>
@@ -38,12 +32,9 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
                                 <a href={props.liveLink} target="_blank" rel="noopener noreferrer">
                                     <p>LIVE DEMO</p>
                                 </a>
-                                : null
-                            }
+                                : null}
                         </div>
-
                     </div>
-
                 </div>
                 :
                 <div className="hover">

@@ -40,7 +40,7 @@ const Skills = () => {
                 <Carousel.Item>
                     <Card
                         title="OTHERS"
-                        content="Linux, Project version control, MySQL, Oracle database, advanced English (speaking, writing and reading) and native Portuguese"
+                        content="Linux, Git, MySQL, advanced English (speaking, writing and reading) and native Portuguese."
                         iconName="info-circle"
                         iconStyle="fas"
                     />
@@ -67,7 +67,7 @@ const Skills = () => {
                 <Card
                     title="OTHERS"
 
-                    content="Linux, Project version control, MySQL, Oracle database, advanced English (speaking, writing and reading) and native Portuguese"
+                    content="Linux, Git, MySQL, advanced English (speaking, writing and reading) and native Portuguese."
 
                     iconName="info-circle"
                     iconStyle="fas"

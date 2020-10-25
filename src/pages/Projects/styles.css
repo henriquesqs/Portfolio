@@ -35,3 +35,22 @@
         font-size: 17px;
     }
 }
+
+@media (min-width: 1025px){
+
+    .pageTitle {
+        margin-top: 0;
+    }
+
+    .projectCards {        
+        width: 95vw;
+        display: grid;
+        grid-template-columns: 1.4fr 1.4fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 2em 5em;
+        grid-template-areas:
+            ". ."
+            ". .";
+        /* padding-right: 80%; */
+    }
+}

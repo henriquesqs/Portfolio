@@ -1,0 +1,22 @@
+.contact {
+    width: 100vw;
+    height: 100vh;
+}
+
+.topTexts {
+    margin-top: 30px;
+    font-family: Roboto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pageTitle {
+    font-weight: 700;
+}
+
+.pageSubTitle {
+    font-weight: 300;   
+    font-size: 20px;
+}
