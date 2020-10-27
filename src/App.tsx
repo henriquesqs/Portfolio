@@ -33,9 +33,7 @@ function App() {
                         <div className="section">
                             <Projects />
                         </div>
-                        <div className="section" style={{
-                            height: "20px !important"
-                        }}>
+                        <div className="section">
                             <Contact />
                         </div>
                     </ReactFullpage.Wrapper>
