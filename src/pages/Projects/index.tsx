@@ -29,7 +29,7 @@ const Projects = () => {
 
     // This function is responsible for handling click outside ProjectCards.
     // When user clicks outside it, we decrease its size
-    function handleClickOutsideCard(event: SyntheticEvent) {
+    function handleClickOutsideCard() {
         setIsFirstCardFocused(false)
         setIsSecondCardFocused(false)
         setIsThirdCardFocused(false)
