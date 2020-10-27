@@ -51,7 +51,7 @@ const Projects = () => {
                         <ProjectCard
                             focused={isFirstCardFocused}
                             title="wwwFit"
-                            longDescription="This project simulates a gym where users can select and receive some physical exercises instructions. It was made using Java, Spring Framework, HTML, CSS, JavaScript and a MySQL database. It was my first time using Model-View-Controller pattern."
+                            longDescription="This project simulates a gym where users can select and receive some physical exercises instructions. It was made using Java, Spring Framework, HTML, CSS, JavaScript and a MySQL database. It was my first time using the Model-View-Controller pattern."
                             smallDescription="Java web application based on a gym"
                             image={"https://i.imgur.com/NoRWjKj.png"}
                             githubLink="https://tinyurl.com/wwwfit"
@@ -65,7 +65,7 @@ const Projects = () => {
                         <ProjectCard
                             focused={isSecondCardFocused}
                             title="Portfolio"
-                            longDescription="I've created this portfolio to better introduce my development skills and also to improve my skills using React.js with TypeScript."
+                            longDescription="I've created this portfolio to introduce my development skills and also to learn React.js and TypeScript."
                             smallDescription="This portfolio, made with React.js TypeScript"
                             image={'https://i.imgur.com/upWVEft.jpg'}
                             githubLink="https://github.com/henriquesqs/portfolio"

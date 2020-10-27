@@ -34,8 +34,6 @@ const Home: React.FC<propsTypes> = (props) => {
         },
     );
 
-    // alert("Screen height: " + window.innerHeight);
-
     return (
         <div className="index" style={{height: window.innerHeight}}>
 
