@@ -55,7 +55,8 @@ const Home: React.FC<propsTypes> = (props) => {
 
             {/* Creating a button to download my CV */}
             <div className="button">
-                <a href="https://drive.google.com/uc?id=1HDzUCiHRhQnDUX9og3vXAspzB6VsBiHr&export=download">
+                {/* <a href="https://drive.google.com/uc?id=1HDzUCiHRhQnDUX9og3vXAspzB6VsBiHr&export=download"> */}
+                <a href="/">
                     <Button bgColor="white" textColor="black" borderColor="black" hoverTextColor="#3672A6" hoverBorderColor="#3672A6" btnWidth="163px" btnHeight="50px" textSize="16px">DOWNLOAD CV</Button>
                 </a>
             </div>
