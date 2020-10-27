@@ -3,7 +3,7 @@ I've created this project to learn **React.js and TypeScript** funnily and also 
 
 The deployment to Github-Pages was automated using Github Actions.
 
-# Available Scripts
+## Available Scripts
 
 In the project directory, you can run:
 
