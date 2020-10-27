@@ -1,23 +1,25 @@
 .contact {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
 }
 
 .topTexts {
-    font-family: Roboto;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    margin-top: 30px;
 }
 
-.pageTitle {
+.pageTitle {    
     font-weight: 700;
 }
 
 .pageSubTitle {
     font-weight: 300;   
     font-size: 20px;
+    text-align: center;
 }
 
 .socialMedias {

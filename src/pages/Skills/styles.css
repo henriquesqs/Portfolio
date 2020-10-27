@@ -1,5 +1,6 @@
 .skills {
-    height: 100vh;
+    /* height: 100vh; */
+    height: 100%;
     width: 100vw;
     font-family: Roboto;
     text-align: center;
@@ -121,7 +122,7 @@
         height: 73%;
     }
 
-    .carousel .carousel-indicators {
-        /* display: none; */
-    }
+    /* .carousel .carousel-indicators {
+        display: none;
+    } */
 }

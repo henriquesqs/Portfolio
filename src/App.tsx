@@ -21,6 +21,7 @@ function App() {
             // fullpage options
             licenseKey={'YOUR_KEY_HERE'}
             scrollingSpeed={1000}
+            verticalCentered={false}
             render={({ fullpageApi }) => {
                 return (
                     <ReactFullpage.Wrapper>
