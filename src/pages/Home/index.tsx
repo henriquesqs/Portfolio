@@ -2,12 +2,13 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import { Button } from "../../components/Button";
+import { fullpageApi } from "@fullpage/react-fullpage";
 import ProfilePhoto from "../../assets/images/ProfilePhoto.jpg"
 
 import "./styles.css";
 
 interface propsTypes {
-    anchors: string[];
+    api: fullpageApi;
 }
 
 const Home: React.FC<propsTypes> = (props) => {
@@ -38,7 +39,7 @@ const Home: React.FC<propsTypes> = (props) => {
 
             {/* Creating my navbar and giving its items/links via its props */}
             <div className="navbar-area">
-                <Navbar links={links} anchors={props.anchors} />
+                <Navbar api={props.api} links={links} />
             </div>
 
             <div className="top-texts">

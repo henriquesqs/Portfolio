@@ -7,26 +7,12 @@
 	height: 100%;
 }
 
-.navBar > strong a {
-	color: black;
-}
-
-.navBar > a {
+.navBar > p {
 	color: gray;
 	font-weight: 700;
 	cursor: pointer;
-	text-decoration: none;
 }
 
-
-.navBar > a:link, .navBar > a:visited, .navBar > a:hover, .navBar > a:active {
-	text-decoration: none;
-}
-
-.navBar > a:hover {
-	color: gray !important;
-}
-  
 @media (max-width: 300px){
 	.navBar p {
 		font-size: 14px;
