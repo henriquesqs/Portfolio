@@ -21,7 +21,6 @@ function App() {
             // fullpage options
             licenseKey={'YOUR_KEY_HERE'}
             scrollingSpeed={1000}
-
             render={({ state, fullpageApi }) => {
                 return (
                     <ReactFullpage.Wrapper>
@@ -34,7 +33,9 @@ function App() {
                         <div className="section">
                             <Projects />
                         </div>
-                        <div className="section">
+                        <div className="section" style={{
+                            height: "20px !important"
+                        }}>
                             <Contact />
                         </div>
                     </ReactFullpage.Wrapper>

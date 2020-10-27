@@ -4,7 +4,6 @@
 }
 
 .topTexts {
-    margin-top: 30px;
     font-family: Roboto;
     text-align: center;
     display: flex;
@@ -19,4 +18,20 @@
 .pageSubTitle {
     font-weight: 300;   
     font-size: 20px;
+}
+
+.socialMedias {
+    height: 35vh;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (min-width: 1025px){
+    .socialMedias {
+        height: 70vh;
+        margin-top: 2%;
+    }
 }
