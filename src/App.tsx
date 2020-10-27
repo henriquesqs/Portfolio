@@ -15,26 +15,30 @@ import "./assets/styles/global.css";
 library.add(fas, far, fab) // this line adds fas, far and fab icons globally so we can use with any page
 
 function App() {
+    
+    const anchors = ["firstPage", "secondPage", "thirdPage", "fourthPage"];
+
     return (
         <ReactFullpage
 
             // fullpage options
             licenseKey={'YOUR_KEY_HERE'}
+            anchors={anchors}
             scrollingSpeed={1000}
             verticalCentered={false}
             render={({ fullpageApi }) => {
                 return (
                     <ReactFullpage.Wrapper>
-                        <div className="section">
-                            <Home api={fullpageApi} />
+                        <div className="section" data-anchor="slide1">
+                            <Home anchors={anchors} />
                         </div>
-                        <div className="section">
+                        <div className="section" data-anchor="slide2">
                             <Skills />
                         </div>
-                        <div className="section">
+                        <div className="section" data-anchor="slide3">
                             <Projects />
                         </div>
-                        <div className="section">
+                        <div className="section" data-anchor="slide4">
                             <Contact />
                         </div>
                     </ReactFullpage.Wrapper>

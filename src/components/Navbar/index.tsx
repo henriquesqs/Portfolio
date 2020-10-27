@@ -1,23 +1,22 @@
 import React from "react"
-import { fullpageApi } from "@fullpage/react-fullpage";
 
 import "./styles.css"
 
 
 interface propsTypes {
 	links: any[],
-	api: fullpageApi;
+	anchors: string[];
 }
 
 const Navbar: React.FC<propsTypes> = (props) => {
-
+	
 	const navLinks = props.links.map(link => {
 		return (
 			(link.id === 1) ?
 				<strong key={link.id}>
-					<p onClick={() => (props.api).moveTo(link.id)}>{link.title}</p>
+					<a href={"#" + props.anchors[link.id-1]}><p>{link.title}</p></a>
 				</strong> :
-				<p key={link.id} onClick={() => (props.api).moveTo(link.id)}>{link.title}</p>
+				<a key={link.id} href={"#" + props.anchors[link.id-1]}><p>{link.title}</p></a>
 		)
 	})
 
