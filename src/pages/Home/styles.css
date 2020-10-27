@@ -1,7 +1,7 @@
 /* Home page default style */
 
 .index {
-	height: 100vh;
+	/* height: 100vh; */
 	text-align: center;
 	font-family: Roboto;
 	display: grid;

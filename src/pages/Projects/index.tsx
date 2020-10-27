@@ -36,7 +36,7 @@ const Projects = () => {
     }
 
     return (
-        <div className="projects" onClick={handleClickOutsideCard}>
+        <div className="projects" onClick={handleClickOutsideCard} style={{height: window.innerHeight}}>
 
             <div className="topTexts">
                 <h1 className="pageTitle">PROJECTS</h1>

@@ -5,7 +5,7 @@ import "./styles.css";
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <div className="contact" style={{height: window.innerHeight.toString()+'px'}}>
             <div className="topTexts">
                 <h1 className="pageTitle">GET IN TOUCH</h1>
                 <h3 className="pageSubTitle">

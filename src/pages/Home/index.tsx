@@ -34,8 +34,10 @@ const Home: React.FC<propsTypes> = (props) => {
         },
     );
 
+    // alert("Screen height: " + window.innerHeight);
+
     return (
-        <div className="index">
+        <div className="index" style={{height: window.innerHeight}}>
 
             {/* Creating my navbar and giving its items/links via its props */}
             <div className="navbar-area">

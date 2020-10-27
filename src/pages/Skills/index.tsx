@@ -7,7 +7,7 @@ import "./styles.css"
 const Skills = () => {
 
     return (
-        <div className="skills">
+        <div className="skills" style={{height: window.innerHeight}}>
 
             <div className="topTexts">
                 <h1 className="pageTitle">WHAT I DO</h1>
