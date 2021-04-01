@@ -35,6 +35,7 @@ jobs:
     - name: Creating env variables
       env:
         FULLPAGE_LICENSE: ${{ secrets.FULLPAGE_LICENSE }}
+      run: echo "Created FULLPAGE_LICENSE env"
     
     - name: Building application
       run: npm run build
