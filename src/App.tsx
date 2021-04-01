@@ -19,7 +19,7 @@ function App() {
         <ReactFullpage
 
             // fullpage options
-            licenseKey={'YOUR_KEY_HERE'}
+            licenseKey={process.env.FULLPAGE_LICENSE}
             scrollingSpeed={1000}
             verticalCentered={false}
             render={({ fullpageApi }) => {
