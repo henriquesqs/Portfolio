@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.179a79d7.chunk.css",
-    "main.js": "/portfolio/static/js/main.626ae188.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.626ae188.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.43d9a0ba.js.map",
-    "static/css/2.74b270cf.chunk.css": "/portfolio/static/css/2.74b270cf.chunk.css",
-    "static/js/2.5443577b.chunk.js": "/portfolio/static/js/2.5443577b.chunk.js",
-    "static/js/2.5443577b.chunk.js.map": "/portfolio/static/js/2.5443577b.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/2.74b270cf.chunk.css.map": "/portfolio/static/css/2.74b270cf.chunk.css.map",
-    "static/css/main.179a79d7.chunk.css.map": "/portfolio/static/css/main.179a79d7.chunk.css.map",
-    "static/js/2.5443577b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5443577b.chunk.js.LICENSE.txt",
-    "static/media/ProfilePhoto.511f6151.jpg": "/portfolio/static/media/ProfilePhoto.511f6151.jpg",
-    "static/media/proffy.adb90949.jpg": "/portfolio/static/media/proffy.adb90949.jpg"
+    "main.css": "/Portfolio/static/css/main.179a79d7.chunk.css",
+    "main.js": "/Portfolio/static/js/main.7755db41.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.7755db41.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.554e0ebb.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.554e0ebb.js.map",
+    "static/css/2.74b270cf.chunk.css": "/Portfolio/static/css/2.74b270cf.chunk.css",
+    "static/js/2.f120ec6c.chunk.js": "/Portfolio/static/js/2.f120ec6c.chunk.js",
+    "static/js/2.f120ec6c.chunk.js.map": "/Portfolio/static/js/2.f120ec6c.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/2.74b270cf.chunk.css.map": "/Portfolio/static/css/2.74b270cf.chunk.css.map",
+    "static/css/main.179a79d7.chunk.css.map": "/Portfolio/static/css/main.179a79d7.chunk.css.map",
+    "static/js/2.f120ec6c.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.f120ec6c.chunk.js.LICENSE.txt",
+    "static/media/ProfilePhoto.511f6151.jpg": "/Portfolio/static/media/ProfilePhoto.511f6151.jpg",
+    "static/media/proffy.adb90949.jpg": "/Portfolio/static/media/proffy.adb90949.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.43d9a0ba.js",
+    "static/js/runtime-main.554e0ebb.js",
     "static/css/2.74b270cf.chunk.css",
-    "static/js/2.5443577b.chunk.js",
+    "static/js/2.f120ec6c.chunk.js",
     "static/css/main.179a79d7.chunk.css",
-    "static/js/main.626ae188.chunk.js"
+    "static/js/main.7755db41.chunk.js"
   ]
 }
