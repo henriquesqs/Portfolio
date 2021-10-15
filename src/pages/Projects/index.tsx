@@ -36,7 +36,7 @@ const Projects = () => {
     }
 
     return (
-        <div className="projects" onClick={handleClickOutsideCard} style={{height: window.innerHeight}}>
+        <div className="projects" onClick={handleClickOutsideCard} style={{ height: window.innerHeight }}>
 
             <div className="topTexts">
                 <h1 className="pageTitle">PROJECTS</h1>
@@ -82,8 +82,8 @@ const Projects = () => {
                             longDescription="Project made during a course provided by a brazilian company. We've created this to practice the basics of a full stack applcation development with React.js, TypeScript, Node.js and sqlite."
                             smallDescription="Project created to learn React.js + TypeScript and Node.js"
                             image={proffyTemplate}
-                            githubLink="https://github.com/henriquesqs/rocketseat-nlw2"
-                            liveLink="https://henriquesqs.github.io/rocketseat-nlw2/#"
+                            githubLink="https://github.com/henriquesqs/Rocketseat-nlw2"
+                            liveLink="https://henriquesqs.github.io/Rocketseat-nlw2/#/"
                         />
                     </div>
                 }
